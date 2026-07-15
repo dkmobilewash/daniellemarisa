@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --color-cream: #faf9f4;
+  --color-paper: #ffffff;
+  --color-ink: #191910;
+  --color-ink-soft: #4a4a3f;
+  --color-olive: #6f7b4f;
+  --color-olive-dark: #4f5837;
+  --color-olive-light: #e7e9dd;
+  --color-border: #e5e3d8;
+}
+
+@theme inline {
+  --color-cream: var(--color-cream);
+  --color-paper: var(--color-paper);
+  --color-ink: var(--color-ink);
+  --color-ink-soft: var(--color-ink-soft);
+  --color-olive: var(--color-olive);
+  --color-olive-dark: var(--color-olive-dark);
+  --color-olive-light: var(--color-olive-light);
+  --color-border: var(--color-border);
+  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-inter);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif), Georgia, serif;
+}
+
+/* Keep space for the sticky mobile CTA bar so it never covers content */
+@media (max-width: 767px) {
+  body {
+    padding-bottom: 4.25rem;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-olive-dark);
+  outline-offset: 2px;
+}

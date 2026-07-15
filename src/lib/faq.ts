@@ -1,0 +1,42 @@
+export const siteFaqs = [
+  {
+    question: "How much does a wedding planner cost in New Mexico?",
+    answer:
+      "It depends on the level of service and your city. As a starting point: month-of coordination typically starts around $1,800–$2,000, full-service planning starts around $4,500–$6,000, and elopement support starts around $1,200–$1,500. Every quote is customized after a free consultation based on guest count, venue, and how much planning is already done.",
+  },
+  {
+    question: "How far in advance should we book a wedding planner?",
+    answer:
+      "For full-service planning, 9–14 months out gives us the most room to secure your ideal venue and in-demand vendors. For month-of coordination, 3–4 months out is typical. If your date is sooner than that, reach out anyway — we regularly take on couples with less lead time.",
+  },
+  {
+    question: "What's the difference between full planning and day-of coordination?",
+    answer:
+      "Full-service planning means we're involved from the very beginning — venue selection, vendor booking, design, and budget management — through the wedding day itself. Day-of (technically 'month-of') coordination means you've already booked your venue and vendors, and we step in about a month out to build the timeline, confirm every detail, and run the day so you don't have to.",
+  },
+  {
+    question: "Doesn't my venue already include a coordinator?",
+    answer:
+      "Most venues offer a coordinator, but their job is to manage the venue and its staff — not your florist, your photographer's timeline, your ceremony program, or the hundred small decisions that come up on a wedding day. A wedding planner works for you, coordinating every vendor and moving part around your day specifically, and we work alongside your venue's team rather than in place of them.",
+  },
+  {
+    question: "What areas do you serve?",
+    answer:
+      "We're based in New Mexico and plan weddings throughout Albuquerque, Santa Fe, Taos, Rio Rancho, Corrales, and Placitas, as well as destination weddings and elopements at scenic sites across the state.",
+  },
+  {
+    question: "How does the process start?",
+    answer:
+      "It starts with a short inquiry form telling us your date, your venue (if you have one), and what kind of help you're looking for. We follow up within one business day to schedule a free consultation call, where we'll talk through your vision, budget, and which package makes sense.",
+  },
+  {
+    question: "Can you help with a destination wedding or elopement?",
+    answer:
+      "Yes — destination weddings and elopements across New Mexico are a core part of what we do, including permit logistics for scenic outdoor sites, guest travel coordination, and multi-day wedding weekends for out-of-town couples.",
+  },
+  {
+    question: "Do you plan events other than weddings?",
+    answer:
+      "Danielle has coordinated corporate events, community events, and VIP parties for 10+ years alongside weddings. Weddings are our primary focus, but reach out if you're planning another type of event and we'll let you know if it's a fit.",
+  },
+];
