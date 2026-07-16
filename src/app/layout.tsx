@@ -13,6 +13,7 @@ import { siteConfig } from "@/lib/site-config";
 const playfair = Playfair_Display({
   variable: "--font-playfair",
   subsets: ["latin"],
+  style: ["normal", "italic"],
   display: "swap",
 });
 

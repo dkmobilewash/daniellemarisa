@@ -2,14 +2,15 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  --color-cream: #faf9f4;
-  --color-paper: #ffffff;
-  --color-ink: #191910;
-  --color-ink-soft: #4a4a3f;
-  --color-olive: #6f7b4f;
-  --color-olive-dark: #4f5837;
-  --color-olive-light: #e7e9dd;
-  --color-border: #e5e3d8;
+  /* Warm, high-desert neutral palette — sand/cream base, terracotta signature accent. */
+  --color-cream: #f6efe4;
+  --color-paper: #fffcf7;
+  --color-ink: #2a211a;
+  --color-ink-soft: #5c4f42;
+  --color-accent: #b5502e;
+  --color-accent-dark: #8c3b20;
+  --color-accent-light: #f2dcc9;
+  --color-border: #e6d9c6;
 }
 
 @theme inline {
@@ -17,9 +18,9 @@
   --color-paper: var(--color-paper);
   --color-ink: var(--color-ink);
   --color-ink-soft: var(--color-ink-soft);
-  --color-olive: var(--color-olive);
-  --color-olive-dark: var(--color-olive-dark);
-  --color-olive-light: var(--color-olive-light);
+  --color-accent: var(--color-accent);
+  --color-accent-dark: var(--color-accent-dark);
+  --color-accent-light: var(--color-accent-light);
   --color-border: var(--color-border);
   --font-serif: var(--font-playfair);
   --font-sans: var(--font-inter);
@@ -47,6 +48,6 @@ h1, h2, h3, h4 {
 }
 
 :focus-visible {
-  outline: 2px solid var(--color-olive-dark);
+  outline: 2px solid var(--color-accent-dark);
   outline-offset: 2px;
 }

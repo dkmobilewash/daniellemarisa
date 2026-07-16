@@ -27,7 +27,7 @@ export default function ElopementPlannerPage() {
         ]}
       />
 
-      <p className="text-sm font-medium uppercase tracking-[0.2em] text-olive-dark">
+      <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent-dark">
         Elopements &amp; Micro Weddings
       </p>
       <h1 className="mt-3 font-serif text-4xl leading-tight text-ink sm:text-5xl">
@@ -94,7 +94,7 @@ export default function ElopementPlannerPage() {
         />
       </div>
 
-      <div className="mt-12 rounded-sm border border-border bg-olive-light/40 p-6 text-center">
+      <div className="mt-12 rounded-sm border border-border bg-accent-light/40 p-6 text-center">
         <h2 className="font-serif text-2xl text-ink">
           Planning an elopement in New Mexico?
         </h2>

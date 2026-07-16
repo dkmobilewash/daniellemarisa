@@ -34,7 +34,7 @@ export function LeadMagnetForm({
         <h2 className="font-serif text-xl text-ink">You&apos;re in!</h2>
         <p className="mt-2 text-sm text-ink-soft">
           Check your inbox for the checklist — and{" "}
-          <a href="/wedding-planning-checklist/thank-you" className="text-olive-dark underline underline-offset-4">
+          <a href="/wedding-planning-checklist/thank-you" className="text-accent-dark underline underline-offset-4">
             grab your download here
           </a>{" "}
           in the meantime.
@@ -63,7 +63,7 @@ export function LeadMagnetForm({
         <button
           type="submit"
           disabled={status === "loading"}
-          className="shrink-0 rounded-sm bg-ink px-6 py-3 text-sm font-medium text-cream hover:bg-olive-dark disabled:opacity-60"
+          className="shrink-0 rounded-sm bg-ink px-6 py-3 text-sm font-medium text-cream hover:bg-accent-dark disabled:opacity-60"
         >
           {status === "loading" ? "Sending..." : "Send Me the Checklist"}
         </button>

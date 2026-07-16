@@ -17,7 +17,7 @@ export default function BlogIndexPage() {
   return (
     <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-2xl text-center">
-        <p className="text-sm font-medium uppercase tracking-[0.2em] text-olive-dark">
+        <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent-dark">
           Venue Guides
         </p>
         <h1 className="mt-3 font-serif text-4xl text-ink">
@@ -27,7 +27,7 @@ export default function BlogIndexPage() {
           Planner-written guides to the venues we&apos;d actually recommend
           — real capacity numbers, logistics, and the photo spots worth
           building your timeline around. Start with{" "}
-          <Link href="/albuquerque-wedding-planner" className="text-olive-dark underline underline-offset-4">
+          <Link href="/albuquerque-wedding-planner" className="text-accent-dark underline underline-offset-4">
             our {siteConfig.primaryCity} planning guide
           </Link>{" "}
           if you&apos;re just getting started.
@@ -50,14 +50,14 @@ export default function BlogIndexPage() {
               />
             </div>
             <div className="flex flex-1 flex-col p-5">
-              <span className="text-xs font-medium uppercase tracking-wide text-olive-dark">
+              <span className="text-xs font-medium uppercase tracking-wide text-accent-dark">
                 {post.category} &middot; {post.city}
               </span>
               <h2 className="mt-2 font-serif text-xl text-ink">{post.title}</h2>
               <p className="mt-2 flex-1 text-sm text-ink-soft">
                 {post.metaDescription}
               </p>
-              <span className="mt-4 text-sm font-medium text-olive-dark group-hover:underline">
+              <span className="mt-4 text-sm font-medium text-accent-dark group-hover:underline">
                 Read the guide &rarr;
               </span>
             </div>

@@ -39,7 +39,7 @@ const mdxComponents = {
     return (
       <Link
         href={props.href ?? "#"}
-        className="text-olive-dark underline underline-offset-4 hover:text-ink"
+        className="text-accent-dark underline underline-offset-4 hover:text-ink"
         {...(!isInternal ? { target: "_blank", rel: "noopener noreferrer" } : {})}
       >
         {props.children}
@@ -71,7 +71,7 @@ export default async function BlogPostPage({
         })}
       />
 
-      <p className="text-sm font-medium uppercase tracking-[0.2em] text-olive-dark">
+      <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent-dark">
         {frontmatter.category} &middot; {frontmatter.city}
       </p>
       <h1 className="mt-3 font-serif text-4xl leading-tight text-ink sm:text-5xl">
@@ -95,16 +95,16 @@ export default async function BlogPostPage({
         />
       </div>
 
-      <div className="prose prose-neutral mt-10 max-w-none prose-headings:font-serif prose-headings:text-ink prose-p:text-ink-soft prose-li:text-ink-soft prose-a:text-olive-dark">
+      <div className="prose prose-neutral mt-10 max-w-none prose-headings:font-serif prose-headings:text-ink prose-p:text-ink-soft prose-li:text-ink-soft prose-a:text-accent-dark">
         <MDXRemote source={content} components={mdxComponents} />
       </div>
 
-      <div className="mt-12 rounded-sm border border-border bg-olive-light/40 p-6">
+      <div className="mt-12 rounded-sm border border-border bg-accent-light/40 p-6">
         <LeadMagnetForm />
       </div>
 
       <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8">
-        <Link href="/blog" className="text-sm font-medium text-olive-dark underline underline-offset-4">
+        <Link href="/blog" className="text-sm font-medium text-accent-dark underline underline-offset-4">
           &larr; Back to venue guides
         </Link>
         <CTA />

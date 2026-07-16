@@ -74,18 +74,30 @@ export const taos: CityContent = {
         "We eloped at sunrise above the gorge and it was the most unrushed, present morning of our lives — because Danielle had handled every permit and contingency in advance.",
       name: "Grace & Elena",
       detail: "Elopement, Rio Grande Gorge overlook",
+      image: {
+        src: "/images/testimonial-taos-1.svg",
+        alt: "Placeholder photo of Grace & Elena's elopement at the Rio Grande Gorge — swap for a real client photo",
+      },
     },
     {
       quote:
         "Taos doesn't have endless vendor options, and Danielle knew exactly who to call for a town this size.",
       name: "Wyatt & Noah",
       detail: "Micro wedding, historic Taos inn",
+      image: {
+        src: "/images/testimonial-taos-2.svg",
+        alt: "Placeholder photo of Wyatt & Noah's micro wedding in Taos — swap for a real client photo",
+      },
     },
     {
       quote:
         "We turned it into a full weekend with family and Danielle planned every piece of it, not just the ceremony.",
       name: "Camille & Andre",
       detail: "Wedding weekend, Taos casita property",
+      image: {
+        src: "/images/testimonial-taos-3.svg",
+        alt: "Placeholder photo of Camille & Andre's wedding weekend in Taos — swap for a real client photo",
+      },
     },
   ],
   mapEmbedSrc: "https://www.google.com/maps?q=Taos,New+Mexico&output=embed",

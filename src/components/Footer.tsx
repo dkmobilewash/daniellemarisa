@@ -12,7 +12,7 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="font-serif text-xl">Danielle Marisa</p>
-            <p className="mt-1 text-xs uppercase tracking-[0.2em] text-olive-light">
+            <p className="mt-1 text-xs uppercase tracking-[0.2em] text-accent-light">
               Weddings &amp; Events
             </p>
             <p className="mt-4 max-w-xs text-sm text-cream/80">
@@ -23,7 +23,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-olive-light">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-accent-light">
               Serving
             </h2>
             <ul className="mt-4 space-y-2 text-sm">
@@ -38,7 +38,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-olive-light">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-accent-light">
               Explore
             </h2>
             <ul className="mt-4 space-y-2 text-sm">
@@ -70,7 +70,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h2 className="text-sm font-semibold uppercase tracking-wide text-olive-light">
+            <h2 className="text-sm font-semibold uppercase tracking-wide text-accent-light">
               Contact
             </h2>
             <ul className="mt-4 space-y-2 text-sm text-cream/80">

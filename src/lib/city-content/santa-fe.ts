@@ -76,18 +76,30 @@ export const santaFe: CityContent = {
         "We planned our wedding from Chicago and never once felt like we were flying blind. Danielle handled everything on the ground, down to the shuttle schedule for our guests.",
       name: "Priya & Sam",
       detail: "Destination wedding, Santa Fe",
+      image: {
+        src: "/images/testimonial-santa-fe-1.svg",
+        alt: "Placeholder photo of Priya & Sam's destination wedding in Santa Fe — swap for a real client photo",
+      },
     },
     {
       quote:
         "The venue's coordinator was wonderful for the building itself, but Danielle ran our entire weekend — rehearsal dinner, brunch, and the wedding day.",
       name: "Isabel & Tom",
       detail: "Santa Fe wedding weekend, historic downtown venue",
+      image: {
+        src: "/images/testimonial-santa-fe-2.svg",
+        alt: "Placeholder photo of Isabel & Tom's wedding weekend in Santa Fe — swap for a real client photo",
+      },
     },
     {
       quote:
         "She knew exactly which spots in town would work for our welcome party without us having to research a single thing.",
       name: "Naomi & Chris",
       detail: "Santa Fe, foothills resort wedding",
+      image: {
+        src: "/images/testimonial-santa-fe-3.svg",
+        alt: "Placeholder photo of Naomi & Chris's wedding in Santa Fe — swap for a real client photo",
+      },
     },
   ],
   mapEmbedSrc: "https://www.google.com/maps?q=Santa+Fe,New+Mexico&output=embed",

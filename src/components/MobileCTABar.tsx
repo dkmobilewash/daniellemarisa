@@ -18,7 +18,7 @@ export function MobileCTABar() {
       </a>
       <Link
         href="/contact"
-        className="flex flex-1 items-center justify-center gap-2 bg-ink py-3 text-sm font-semibold text-cream"
+        className="flex flex-1 items-center justify-center gap-2 bg-accent-dark py-3 text-sm font-semibold uppercase tracking-[0.08em] text-cream"
       >
         {siteConfig.ctaLabel}
       </Link>

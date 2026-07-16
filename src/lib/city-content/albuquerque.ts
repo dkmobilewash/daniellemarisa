@@ -83,18 +83,30 @@ export const albuquerque: CityContent = {
         "We asked our venue this exact question before we hired Danielle, and in hindsight the answer was obvious: their coordinator had never met our florist and didn't know our ceremony started 20 minutes early for sunset. Danielle did.",
       name: "Maya & Jordan",
       detail: "Married at Hotel Andaluz, Downtown Albuquerque",
+      image: {
+        src: "/images/venue-hotel-andaluz.svg",
+        alt: "Placeholder photo of Maya & Jordan's wedding at Hotel Andaluz — swap for a real client photo",
+      },
     },
     {
       quote:
         "Casa Rondeña is a gorgeous venue but it's a working winery — Danielle handled the delivery logistics and vendor timing so the staff could focus on the wine and the space.",
       name: "Ellie & Ben",
       detail: "Married at Casa Rondeña Winery, Los Ranchos",
+      image: {
+        src: "/images/venue-casa-rondena.svg",
+        alt: "Placeholder photo of Ellie & Ben's wedding at Casa Rondeña Winery — swap for a real client photo",
+      },
     },
     {
       quote:
         "Our reception spanned two spaces at Tamaya and I genuinely don't know how we would have moved 140 guests between them without her.",
       name: "Renee & Marcus",
       detail: "Married at Hyatt Regency Tamaya, Santa Ana Pueblo",
+      image: {
+        src: "/images/venue-tamaya.svg",
+        alt: "Placeholder photo of Renee & Marcus's wedding at Hyatt Regency Tamaya — swap for a real client photo",
+      },
     },
   ],
   mapEmbedSrc:

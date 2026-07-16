@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { CTA } from "@/components/CTA";
 import { Testimonial } from "@/components/Testimonial";
+import { PressStrip } from "@/components/PressStrip";
 import { FAQAccordion, type FAQItem } from "@/components/FAQAccordion";
 import { StructuredData } from "@/components/StructuredData";
 import { localBusinessSchema, serviceSchema } from "@/lib/schema";
@@ -24,7 +25,12 @@ export type CityContent = {
   packages: CityPackage[];
   objectionHeading: string;
   objectionBody: string[];
-  testimonials: { quote: string; name: string; detail: string }[];
+  testimonials: {
+    quote: string;
+    name: string;
+    detail: string;
+    image?: { src: string; alt: string };
+  }[];
   mapEmbedSrc: string;
   venueGuideLinks: { title: string; href: string }[];
   nicheLinks: { title: string; href: string }[];
@@ -67,11 +73,11 @@ export function CityLandingPage({ content }: { content: CityContent }) {
       <section className="border-b border-border bg-paper">
         <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 md:grid-cols-2 md:items-center md:py-20 lg:px-8">
           <div>
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-olive-dark">
+            <p className="text-sm font-medium uppercase tracking-[0.2em] text-accent-dark">
               {cityName}, New Mexico
             </p>
             <h1 className="mt-3 font-serif text-4xl leading-tight text-ink sm:text-5xl">
-              {cityName} Wedding Planner + Coordinator
+              {cityName} <em className="text-accent-dark italic">Wedding Planner</em> + Coordinator
             </h1>
             <p className="mt-5 max-w-lg text-lg leading-relaxed text-ink-soft">
               {intro}
@@ -85,6 +91,8 @@ export function CityLandingPage({ content }: { content: CityContent }) {
           </div>
         </div>
       </section>
+
+      <PressStrip />
 
       <section className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
         {localKnowledge.map((block) => (
@@ -119,7 +127,7 @@ export function CityLandingPage({ content }: { content: CityContent }) {
         </ul>
       </section>
 
-      <section id="services" className="border-y border-border bg-olive-light/40">
+      <section id="services" className="border-y border-border bg-accent-light/40">
         <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
           <h2 className="text-center font-serif text-2xl text-ink sm:text-3xl">
             Planning packages
@@ -135,14 +143,14 @@ export function CityLandingPage({ content }: { content: CityContent }) {
                 className="flex flex-col rounded-sm border border-border bg-paper p-6"
               >
                 <h3 className="font-serif text-xl text-ink">{pkg.name}</h3>
-                <p className="mt-1 text-sm font-semibold text-olive-dark">
+                <p className="mt-1 text-sm font-semibold text-accent-dark">
                   Starting at {pkg.price}
                 </p>
                 <p className="mt-3 text-sm text-ink-soft">{pkg.description}</p>
                 <ul className="mt-4 space-y-2 text-sm text-ink-soft">
                   {pkg.features.map((f) => (
                     <li key={f} className="flex gap-2">
-                      <span aria-hidden="true" className="text-olive-dark">
+                      <span aria-hidden="true" className="text-accent-dark">
                         &#10003;
                       </span>
                       {f}
@@ -202,7 +210,7 @@ export function CityLandingPage({ content }: { content: CityContent }) {
       </section>
 
       {faqs.length > 0 && (
-        <section className="border-y border-border bg-olive-light/40">
+        <section className="border-y border-border bg-accent-light/40">
           <div className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
             <h2 className="text-center font-serif text-2xl text-ink sm:text-3xl">
               {cityName} wedding planning FAQ
@@ -212,7 +220,7 @@ export function CityLandingPage({ content }: { content: CityContent }) {
             </div>
             <p className="mt-6 text-center text-sm text-ink-soft">
               More questions?{" "}
-              <Link href="/faq" className="text-olive-dark underline underline-offset-4">
+              <Link href="/faq" className="text-accent-dark underline underline-offset-4">
                 Read our full FAQ
               </Link>
               .
@@ -228,13 +236,13 @@ export function CityLandingPage({ content }: { content: CityContent }) {
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           <Link
             href="/about"
-            className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-olive"
+            className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-accent"
           >
             Meet {siteConfig.founderName} →
           </Link>
           <Link
             href="/faq"
-            className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-olive"
+            className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-accent"
           >
             Wedding planning FAQ →
           </Link>
@@ -242,7 +250,7 @@ export function CityLandingPage({ content }: { content: CityContent }) {
             <Link
               key={v.href}
               href={v.href}
-              className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-olive"
+              className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-accent"
             >
               {v.title} →
             </Link>
@@ -251,7 +259,7 @@ export function CityLandingPage({ content }: { content: CityContent }) {
             <Link
               key={n.href}
               href={n.href}
-              className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-olive"
+              className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-accent"
             >
               {n.title} →
             </Link>

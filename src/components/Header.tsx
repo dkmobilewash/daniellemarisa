@@ -26,12 +26,12 @@ export function Header() {
           onClick={() => setOpen(false)}
         >
           Danielle Marisa
-          <span className="block text-[0.65rem] font-sans font-normal uppercase tracking-[0.2em] text-olive-dark">
+          <span className="block text-[0.65rem] font-sans font-normal uppercase tracking-[0.2em] text-accent-dark">
             Weddings &amp; Events
           </span>
         </Link>
 
-        <nav aria-label="Primary" className="hidden items-center gap-6 lg:flex">
+        <nav aria-label="Primary" className="hidden items-center gap-7 lg:flex">
           {navLinks.map((link) => {
             const active = pathname === link.href;
             return (
@@ -39,8 +39,8 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 aria-current={active ? "page" : undefined}
-                className={`text-sm font-medium transition-colors hover:text-olive-dark ${
-                  active ? "text-olive-dark" : "text-ink"
+                className={`text-xs font-medium uppercase tracking-[0.15em] transition-colors hover:text-accent-dark ${
+                  active ? "text-accent-dark" : "text-ink"
                 }`}
               >
                 {link.label}
@@ -90,7 +90,7 @@ export function Header() {
                 <Link
                   href={link.href}
                   onClick={() => setOpen(false)}
-                  className="block rounded-sm px-2 py-3 text-base font-medium text-ink hover:bg-olive-light"
+                  className="block rounded-sm px-2 py-3 text-sm font-medium uppercase tracking-[0.1em] text-ink hover:bg-accent-light"
                 >
                   {link.label}
                 </Link>

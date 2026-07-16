@@ -20,7 +20,7 @@ export default function ChecklistThankYouPage() {
       <a
         href="/downloads/wedding-planning-checklist.pdf"
         download
-        className="mt-8 inline-flex items-center justify-center rounded-sm bg-ink px-8 py-4 text-base font-medium text-cream hover:bg-olive-dark"
+        className="mt-8 inline-flex items-center justify-center rounded-sm bg-ink px-8 py-4 text-base font-medium text-cream hover:bg-accent-dark"
       >
         Download the Checklist (PDF)
       </a>
@@ -31,7 +31,7 @@ export default function ChecklistThankYouPage() {
         <CTA size="lg" />
       </div>
       <p className="mt-6 text-sm">
-        <Link href="/" className="text-olive-dark underline underline-offset-4">
+        <Link href="/" className="text-accent-dark underline underline-offset-4">
           Back to home
         </Link>
       </p>

@@ -34,12 +34,12 @@ export function ContactForm() {
 
   if (status === "success") {
     return (
-      <div role="status" className="rounded-sm border border-olive bg-olive-light/40 p-6 text-center">
+      <div role="status" className="rounded-sm border border-accent bg-accent-light/40 p-6 text-center">
         <h2 className="font-serif text-2xl text-ink">Thank you!</h2>
         <p className="mt-2 text-ink-soft">
           Your inquiry is in — we&apos;ll follow up within one business day.
           Need something sooner? Call or text{" "}
-          <a href={siteConfig.phoneHref} className="text-olive-dark underline underline-offset-4">
+          <a href={siteConfig.phoneHref} className="text-accent-dark underline underline-offset-4">
             {siteConfig.phone}
           </a>
           .
@@ -119,7 +119,7 @@ export function ContactForm() {
       <button
         type="submit"
         disabled={status === "loading"}
-        className="w-full rounded-sm bg-ink px-6 py-3 text-sm font-medium text-cream hover:bg-olive-dark disabled:opacity-60 sm:w-auto"
+        className="w-full rounded-sm bg-ink px-6 py-3 text-sm font-medium text-cream hover:bg-accent-dark disabled:opacity-60 sm:w-auto"
       >
         {status === "loading" ? "Sending..." : siteConfig.ctaLabel}
       </button>

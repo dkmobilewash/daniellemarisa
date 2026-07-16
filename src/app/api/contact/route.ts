@@ -10,6 +10,8 @@ type ContactBody = {
   email?: unknown;
   weddingDate?: unknown;
   venue?: unknown;
+  guestCount?: unknown;
+  budgetRange?: unknown;
   message?: unknown;
 };
 
@@ -29,11 +31,13 @@ export async function POST(request: Request) {
   const email = asString(body.email, 200).trim();
   const weddingDate = asString(body.weddingDate, 100).trim();
   const venue = asString(body.venue, 200).trim();
+  const guestCount = asString(body.guestCount, 100).trim();
+  const budgetRange = asString(body.budgetRange, 100).trim();
   const message = asString(body.message, 5000).trim();
 
-  if (!name || !EMAIL_RE.test(email) || !message) {
+  if (!name || !EMAIL_RE.test(email)) {
     return NextResponse.json(
-      { error: "Name, a valid email, and a message are required" },
+      { error: "Name and a valid email are required" },
       { status: 400 }
     );
   }
@@ -56,8 +60,10 @@ export async function POST(request: Request) {
         <p><strong>Email:</strong> ${escapeHtml(email)}</p>
         <p><strong>Wedding date:</strong> ${escapeHtml(weddingDate || "Not provided")}</p>
         <p><strong>Venue:</strong> ${escapeHtml(venue || "Not provided")}</p>
+        <p><strong>Guest count:</strong> ${escapeHtml(guestCount || "Not provided")}</p>
+        <p><strong>Budget range:</strong> ${escapeHtml(budgetRange || "Not provided")}</p>
         <p><strong>Message:</strong></p>
-        <p>${escapeHtml(message).replace(/\n/g, "<br/>")}</p>
+        <p>${escapeHtml(message || "Not provided").replace(/\n/g, "<br/>")}</p>
       `,
     });
 

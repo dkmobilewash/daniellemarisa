@@ -31,8 +31,8 @@ export const siteConfig = {
 
   colors: {
     ink: "#191910",
-    olive: "#6F7B4F",
-    oliveDark: "#4F5837",
+    accent: "#6F7B4F",
+    accentDark: "#4F5837",
     cream: "#FAF9F4",
   },
 } as const;

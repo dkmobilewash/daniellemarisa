@@ -22,15 +22,15 @@ export function CTA({
   className = "",
 }: CTAProps) {
   const base =
-    "inline-flex items-center justify-center gap-2 rounded-sm font-sans font-medium tracking-wide transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2";
+    "inline-flex items-center justify-center gap-2 rounded-sm font-sans font-semibold uppercase tracking-[0.12em] transition-colors duration-150 focus-visible:outline-2 focus-visible:outline-offset-2";
   const sizes = {
-    md: "px-6 py-3 text-sm",
-    lg: "px-8 py-4 text-base",
+    md: "px-6 py-3 text-xs",
+    lg: "px-8 py-4 text-sm",
   };
   const variants = {
-    solid: "bg-ink text-cream hover:bg-olive-dark",
+    solid: "bg-accent-dark text-cream hover:bg-ink",
     outline: "border border-ink text-ink hover:bg-ink hover:text-cream",
-    ghost: "text-olive-dark underline underline-offset-4 hover:text-ink",
+    ghost: "text-accent-dark underline underline-offset-4 normal-case tracking-normal font-medium hover:text-ink",
   };
 
   return (
