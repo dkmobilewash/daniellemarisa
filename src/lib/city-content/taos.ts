@@ -2,9 +2,8 @@ import type { CityContent } from "@/components/CityLandingPage";
 
 export const taos: CityContent = {
   cityName: "Taos",
-  heroImage: "/images/hero-taos.svg",
-  heroAlt:
-    "Placeholder photo of a Taos mountain elopement with the Sangre de Cristo range in the background — swap for real client photography",
+  heroImage: "/images/real-wedding-ambiance/ALP-228.jpg",
+  heroAlt: "Real outdoor wedding first-kiss moment among greenery at golden hour",
   intro:
     "Danielle Marisa Weddings and Events plans intimate weddings, elopements, and full-scale celebrations for couples marrying in and around Taos — from adobe casitas and mountain overlooks to the rim of the Rio Grande Gorge. Taos rewards a planner who knows its terrain, its weather, and its small-town vendor network.",
   localKnowledge: [
@@ -75,8 +74,8 @@ export const taos: CityContent = {
       name: "Grace & Elena",
       detail: "Elopement, Rio Grande Gorge overlook",
       image: {
-        src: "/images/testimonial-taos-1.svg",
-        alt: "Placeholder photo of Grace & Elena's elopement at the Rio Grande Gorge — swap for a real client photo",
+        src: "/images/real-wedding-ambiance/ALP-421.jpg",
+        alt: "Real intimate wedding first-dance moment under string lights",
       },
     },
     {
@@ -85,8 +84,8 @@ export const taos: CityContent = {
       name: "Wyatt & Noah",
       detail: "Micro wedding, historic Taos inn",
       image: {
-        src: "/images/testimonial-taos-2.svg",
-        alt: "Placeholder photo of Wyatt & Noah's micro wedding in Taos — swap for a real client photo",
+        src: "/images/real-wedding-ambiance/ALP-330.jpg",
+        alt: "Real micro wedding celebration",
       },
     },
     {
@@ -95,8 +94,8 @@ export const taos: CityContent = {
       name: "Camille & Andre",
       detail: "Wedding weekend, Taos casita property",
       image: {
-        src: "/images/testimonial-taos-3.svg",
-        alt: "Placeholder photo of Camille & Andre's wedding weekend in Taos — swap for a real client photo",
+        src: "/images/real-wedding-ambiance/ALP-402.jpg",
+        alt: "Real wedding weekend celebration",
       },
     },
   ],

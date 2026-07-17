@@ -2,9 +2,8 @@ import type { CityContent } from "@/components/CityLandingPage";
 
 export const albuquerque: CityContent = {
   cityName: "Albuquerque",
-  heroImage: "/images/hero-albuquerque.svg",
-  heroAlt:
-    "Placeholder photo of an Albuquerque wedding at golden hour with the Sandia Mountains in the background — swap for real client photography",
+  heroImage: "/images/real-wedding-ambiance/ALP-4.jpg",
+  heroAlt: "Real Albuquerque-area wedding reception at a poolside adobe venue",
   intro:
     "Danielle Marisa Weddings and Events plans full-service weddings and coordinates day-of logistics for couples marrying in Albuquerque — from Old Town courtyards and Nob Hill lofts to North Valley wineries and mountainside resorts. You get 10+ years of local vendor relationships and a planner who has actually worked the room at nearly every venue in town.",
   localKnowledge: [
@@ -19,7 +18,7 @@ export const albuquerque: CityContent = {
     {
       heading: "When to book your Albuquerque wedding planner",
       paragraphs: [
-        "Most of our full-service couples reach out 9 to 14 months before their wedding date, which is also when Albuquerque's most in-demand venues — think Hotel Andaluz, Casa Rondeña, and Hyatt Regency Tamaya — start filling their prime spring and fall Saturdays. If you already have a venue booked and just need someone to manage the last stretch, month-of coordination clients typically bring us in 3 to 4 months out.",
+        "Most of our full-service couples reach out 9 to 14 months before their wedding date, which is also when Albuquerque's most in-demand venues — think Hotel Andaluz and Hyatt Regency Tamaya — start filling their prime spring and fall Saturdays. If you already have a venue booked and just need someone to manage the last stretch, month-of coordination clients typically bring us in 3 to 4 months out.",
         "If you're reading this closer to your date than either of those windows, don't count yourself out. We regularly take on couples with 60 days or less who need someone to take over an overwhelming vendor list, and we'll always give you an honest answer about what's realistically possible in the time left.",
       ],
     },
@@ -84,18 +83,8 @@ export const albuquerque: CityContent = {
       name: "Maya & Jordan",
       detail: "Married at Hotel Andaluz, Downtown Albuquerque",
       image: {
-        src: "/images/venue-hotel-andaluz.svg",
-        alt: "Placeholder photo of Maya & Jordan's wedding at Hotel Andaluz — swap for a real client photo",
-      },
-    },
-    {
-      quote:
-        "Casa Rondeña is a gorgeous venue but it's a working winery — Danielle handled the delivery logistics and vendor timing so the staff could focus on the wine and the space.",
-      name: "Ellie & Ben",
-      detail: "Married at Casa Rondeña Winery, Los Ranchos",
-      image: {
-        src: "/images/venue-casa-rondena.svg",
-        alt: "Placeholder photo of Ellie & Ben's wedding at Casa Rondeña Winery — swap for a real client photo",
+        src: "/images/hotel-andalez/ALP-220.jpg",
+        alt: "Real wedding ceremony aisle at Hotel Andaluz, Albuquerque",
       },
     },
     {
@@ -104,8 +93,8 @@ export const albuquerque: CityContent = {
       name: "Renee & Marcus",
       detail: "Married at Hyatt Regency Tamaya, Santa Ana Pueblo",
       image: {
-        src: "/images/venue-tamaya.svg",
-        alt: "Placeholder photo of Renee & Marcus's wedding at Hyatt Regency Tamaya — swap for a real client photo",
+        src: "/images/hyatt-tamaya/hyatt-tamaya-wedding-planner.jpg",
+        alt: "Real sunset wedding ceremony setup at Hyatt Regency Tamaya with the Sandia Mountains in the background",
       },
     },
   ],
@@ -113,7 +102,6 @@ export const albuquerque: CityContent = {
     "https://www.google.com/maps?q=Albuquerque,New+Mexico&output=embed",
   venueGuideLinks: [
     { title: "Hotel Andaluz Venue Guide", href: "/blog/hotel-andaluz-albuquerque-wedding-venue-guide" },
-    { title: "Casa Rondeña Winery Venue Guide", href: "/blog/casa-rondena-winery-albuquerque-wedding-venue-guide" },
     { title: "Hyatt Regency Tamaya Venue Guide", href: "/blog/hyatt-regency-tamaya-albuquerque-wedding-venue-guide" },
   ],
   nicheLinks: [
@@ -134,7 +122,7 @@ export const albuquerque: CityContent = {
     {
       question: "Do you only work at certain Albuquerque venues?",
       answer:
-        "No. While we've coordinated weddings at popular spots like Hotel Andaluz, Casa Rondeña Winery, and Hyatt Regency Tamaya, we plan weddings at any venue in the Albuquerque metro, including private homes, ranches, and event spaces you've already found on your own.",
+        "No. While we've coordinated weddings at popular spots like Hotel Andaluz and Hyatt Regency Tamaya, we plan weddings at any venue in the Albuquerque metro, including private homes, ranches, and event spaces you've already found on your own.",
     },
   ],
   closingBody:

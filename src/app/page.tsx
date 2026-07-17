@@ -21,8 +21,8 @@ export default function HomePage() {
     <>
       <section className="relative flex min-h-[88vh] items-center justify-center overflow-hidden">
         <Image
-          src="/images/hero-home.svg"
-          alt="Placeholder photo of a New Mexico wedding — swap for real Danielle Marisa Weddings photography"
+          src="/images/real-wedding-ambiance/ALP-147.jpg"
+          alt="Real wedding reception poolside at golden hour"
           fill
           priority
           className="object-cover"

@@ -9,8 +9,8 @@ export function FounderTeaser() {
       <div className="grid gap-10 rounded-sm border border-border p-8 sm:p-12 md:grid-cols-2 md:items-center">
         <div className="relative aspect-[4/3] w-full overflow-hidden rounded-sm">
           <Image
-            src="/images/about-danielle-2.svg"
-            alt="Placeholder photo of Danielle Marisa and her team — swap for a real team photo"
+            src="/images/danielle-marisa-images/danielle-marisa-headshot.jpg"
+            alt="Danielle Marisa, founder of Danielle Marisa Weddings and Events"
             fill
             className="object-cover"
           />

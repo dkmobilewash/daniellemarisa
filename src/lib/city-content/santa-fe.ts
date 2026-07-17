@@ -2,9 +2,8 @@ import type { CityContent } from "@/components/CityLandingPage";
 
 export const santaFe: CityContent = {
   cityName: "Santa Fe",
-  heroImage: "/images/hero-santa-fe.svg",
-  heroAlt:
-    "Placeholder photo of a Santa Fe adobe courtyard wedding at sunset — swap for real client photography",
+  heroImage: "/images/real-wedding-ambiance/Annette&MaxWedding2023-3391.jpg",
+  heroAlt: "Real wedding party portrait in front of the Cathedral Basilica of St. Francis of Assisi, Santa Fe",
   intro:
     "Danielle Marisa Weddings and Events plans full-service and destination weddings for couples marrying in Santa Fe — from historic adobe hotels near the Plaza to luxury resorts in the foothills. Many of our Santa Fe couples live out of state; we act as your local, on-the-ground team so distance never becomes a planning problem.",
   localKnowledge: [
@@ -77,8 +76,8 @@ export const santaFe: CityContent = {
       name: "Priya & Sam",
       detail: "Destination wedding, Santa Fe",
       image: {
-        src: "/images/testimonial-santa-fe-1.svg",
-        alt: "Placeholder photo of Priya & Sam's destination wedding in Santa Fe — swap for a real client photo",
+        src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-2525.jpg",
+        alt: "Real destination wedding celebration in Santa Fe",
       },
     },
     {
@@ -87,8 +86,8 @@ export const santaFe: CityContent = {
       name: "Isabel & Tom",
       detail: "Santa Fe wedding weekend, historic downtown venue",
       image: {
-        src: "/images/testimonial-santa-fe-2.svg",
-        alt: "Placeholder photo of Isabel & Tom's wedding weekend in Santa Fe — swap for a real client photo",
+        src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-3052.jpg",
+        alt: "Real wedding weekend celebration in downtown Santa Fe",
       },
     },
     {
@@ -97,8 +96,8 @@ export const santaFe: CityContent = {
       name: "Naomi & Chris",
       detail: "Santa Fe, foothills resort wedding",
       image: {
-        src: "/images/testimonial-santa-fe-3.svg",
-        alt: "Placeholder photo of Naomi & Chris's wedding in Santa Fe — swap for a real client photo",
+        src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-465.jpg",
+        alt: "Real wedding reception at a Santa Fe foothills resort",
       },
     },
   ],

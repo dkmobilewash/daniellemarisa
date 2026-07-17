@@ -1,9 +1,12 @@
 import Image from "next/image";
 
-const IMAGES = [1, 2, 3, 4, 5].map((n) => ({
-  src: `/images/filmstrip-${n}.svg`,
-  alt: `Placeholder real-wedding photo ${n} — swap for real client photography`,
-}));
+const IMAGES = [
+  { src: "/images/real-wedding-ambiance/ALP-10.jpg", alt: "Real wedding photo — bride getting ready" },
+  { src: "/images/real-wedding-ambiance/ALP-344.jpg", alt: "Real wedding photo — first kiss under a wisteria-covered pergola" },
+  { src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-139.jpg", alt: "Real wedding photo — couple portrait" },
+  { src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-2085.jpg", alt: "Real wedding photo — reception details" },
+  { src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-4617.jpg", alt: "Real wedding photo — candid celebration moment" },
+];
 
 /**
  * A quiet five-across photo band directly beneath the hero — a visual

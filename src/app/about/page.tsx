@@ -23,7 +23,6 @@ const atAGlance = [
 
 const venuesWeKnow = [
   { name: "Hotel Andaluz", href: "/blog/hotel-andaluz-albuquerque-wedding-venue-guide" },
-  { name: "Casa Rondeña Winery", href: "/blog/casa-rondena-winery-albuquerque-wedding-venue-guide" },
   { name: "Hyatt Regency Tamaya Resort & Spa", href: "/blog/hyatt-regency-tamaya-albuquerque-wedding-venue-guide" },
 ];
 
@@ -34,24 +33,14 @@ export default function AboutPage() {
       <StructuredData data={personSchema()} />
 
       <div className="grid gap-10 md:grid-cols-[2fr_3fr] md:items-start">
-        <div className="grid grid-cols-2 gap-3 md:grid-cols-1">
-          <div className="relative col-span-2 aspect-[4/5] w-full overflow-hidden rounded-sm md:col-span-1">
-            <Image
-              src="/images/about-danielle.svg"
-              alt="Placeholder portrait of founder Danielle Marisa — swap for a real photo"
-              fill
-              priority
-              className="object-cover"
-            />
-          </div>
-          <div className="relative col-span-2 aspect-[4/3] w-full overflow-hidden rounded-sm">
-            <Image
-              src="/images/about-danielle-2.svg"
-              alt="Placeholder candid photo of Danielle Marisa at work — swap for a real photo"
-              fill
-              className="object-cover"
-            />
-          </div>
+        <div className="relative aspect-[3/2] w-full overflow-hidden rounded-sm md:aspect-[4/5]">
+          <Image
+            src="/images/danielle-marisa-images/danielle-marisa-headshot.jpg"
+            alt="Danielle Marisa, founder of Danielle Marisa Weddings and Events"
+            fill
+            priority
+            className="object-cover"
+          />
         </div>
 
         <div>

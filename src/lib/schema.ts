@@ -8,7 +8,7 @@ export function localBusinessSchema() {
     "@type": "LocalBusiness",
     "@id": orgId,
     name: siteConfig.businessName,
-    image: `${siteConfig.domain}/images/og-default.jpg`,
+    image: `${siteConfig.domain}/images/real-wedding-ambiance/ALP-147.jpg`,
     url: siteConfig.domain,
     telephone: siteConfig.phone,
     email: siteConfig.email,

@@ -34,7 +34,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: siteConfig.businessName,
-    images: [{ url: "/images/og-default.svg", width: 1200, height: 630 }],
+    images: [{ url: "/images/real-wedding-ambiance/ALP-147.jpg", width: 1024, height: 684 }],
   },
   twitter: {
     card: "summary_large_image",

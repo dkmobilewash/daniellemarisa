@@ -184,9 +184,11 @@ export function CityLandingPage({ content }: { content: CityContent }) {
           <h2 className="text-center font-serif text-2xl text-ink sm:text-3xl">
             {cityName} couples on working with us
           </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+          <div className="mt-10 flex flex-wrap justify-center gap-6">
             {testimonials.map((t) => (
-              <Testimonial key={t.name} {...t} />
+              <div key={t.name} className="w-full sm:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)]">
+                <Testimonial {...t} />
+              </div>
             ))}
           </div>
         </div>
