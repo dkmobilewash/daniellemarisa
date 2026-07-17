@@ -46,6 +46,9 @@ export function Footer() {
                 <Link href="/about" className="text-cream/80 hover:text-cream">About</Link>
               </li>
               <li>
+                <Link href="/venues" className="text-cream/80 hover:text-cream">Venues</Link>
+              </li>
+              <li>
                 <Link href="/blog" className="text-cream/80 hover:text-cream">Venue Guides</Link>
               </li>
               <li>

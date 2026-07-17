@@ -22,8 +22,8 @@ const atAGlance = [
 ];
 
 const venuesWeKnow = [
-  { name: "Hotel Andaluz", href: "/blog/hotel-andaluz-albuquerque-wedding-venue-guide" },
-  { name: "Hyatt Regency Tamaya Resort & Spa", href: "/blog/hyatt-regency-tamaya-albuquerque-wedding-venue-guide" },
+  { name: "Hotel Andaluz", href: "/venues/hotel-andaluz" },
+  { name: "Hyatt Regency Tamaya Resort & Spa", href: "/venues/hyatt-regency-tamaya" },
 ];
 
 export default function AboutPage() {

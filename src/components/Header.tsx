@@ -8,6 +8,7 @@ import { cities } from "@/lib/cities";
 
 const navLinks = [
   ...cities.map((c) => ({ href: c.path, label: c.name })),
+  { href: "/venues", label: "Venues" },
   { href: "/blog", label: "Venue Guides" },
   { href: "/about", label: "About" },
   { href: "/faq", label: "FAQ" },

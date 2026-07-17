@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getFeaturedPostsAcrossCities } from "@/lib/blog";
+import { getFeaturedVenuesAcrossCities } from "@/lib/venues";
 import { CTA } from "@/components/CTA";
 
 /**
- * Staggered gallery of real venue guides — one representative venue per
+ * Staggered gallery of featured venues — one representative venue per
  * market, mirroring the "real weddings" gallery pattern from the reference
- * sites while using our actual venue-guide content instead of a generic
+ * sites while linking to our own venue lander pages instead of a generic
  * portfolio grid.
  */
 export function RealWeddingsGallery() {
-  const posts = getFeaturedPostsAcrossCities();
+  const venues = getFeaturedVenuesAcrossCities();
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
@@ -19,35 +19,35 @@ export function RealWeddingsGallery() {
           Real Weddings &amp; Venues
         </p>
         <h2 className="mt-2 font-serif text-3xl text-ink sm:text-4xl">
-          The Venue Guides
+          Featured Venues
         </h2>
       </div>
 
       <div className="mt-12 columns-1 gap-6 sm:columns-2">
-        {posts.map((post, i) => (
+        {venues.map((venue, i) => (
           <Link
-            key={post.slug}
-            href={`/blog/${post.slug}`}
+            key={venue.slug}
+            href={`/venues/${venue.slug}`}
             className={`group mb-6 block break-inside-avoid ${i % 3 === 1 ? "sm:mt-12" : ""}`}
           >
             <div className="relative aspect-[4/5] w-full overflow-hidden">
               <Image
-                src={post.heroImage}
-                alt={post.heroImageAlt}
+                src={venue.heroImage}
+                alt={venue.heroImageAlt}
                 fill
                 className="object-cover transition-transform duration-300 group-hover:scale-105"
               />
             </div>
-            <p className="mt-3 font-serif italic text-lg text-ink">{post.title}</p>
+            <p className="mt-3 font-serif italic text-lg text-ink">{venue.name}</p>
             <span className="text-xs font-medium uppercase tracking-[0.15em] text-accent-dark">
-              View Guide
+              View Venue
             </span>
           </Link>
         ))}
       </div>
 
       <div className="mt-4 text-center">
-        <CTA href="/blog">More Guides</CTA>
+        <CTA href="/venues">More Venues</CTA>
       </div>
     </section>
   );
