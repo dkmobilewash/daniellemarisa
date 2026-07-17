@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { getAllPosts } from "@/lib/blog";
+import { BlogGrid } from "@/components/BlogGrid";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -34,35 +34,8 @@ export default function BlogIndexPage() {
         </p>
       </div>
 
-      <div className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {posts.map((post) => (
-          <Link
-            key={post.slug}
-            href={`/blog/${post.slug}`}
-            className="group flex flex-col overflow-hidden rounded-sm border border-border bg-paper"
-          >
-            <div className="relative aspect-[3/2] w-full">
-              <Image
-                src={post.heroImage}
-                alt={post.heroImageAlt}
-                fill
-                className="object-cover transition-transform duration-300 group-hover:scale-105"
-              />
-            </div>
-            <div className="flex flex-1 flex-col p-5">
-              <span className="text-xs font-medium uppercase tracking-wide text-accent-dark">
-                {post.category} &middot; {post.city}
-              </span>
-              <h2 className="mt-2 font-serif text-xl text-ink">{post.title}</h2>
-              <p className="mt-2 flex-1 text-sm text-ink-soft">
-                {post.metaDescription}
-              </p>
-              <span className="mt-4 text-sm font-medium text-accent-dark group-hover:underline">
-                Read the guide &rarr;
-              </span>
-            </div>
-          </Link>
-        ))}
+      <div className="mt-12">
+        <BlogGrid posts={posts} />
       </div>
     </div>
   );

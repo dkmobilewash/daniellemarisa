@@ -38,6 +38,24 @@ export function getAllPosts(): PostSummary[] {
     );
 }
 
+export function getPostsByCity(city: string): PostSummary[] {
+  return getAllPosts().filter((p) => p.city === city);
+}
+
+/** One representative (newest) post per city — used for cross-market showcases like the homepage gallery. */
+export function getFeaturedPostsAcrossCities(): PostSummary[] {
+  const posts = getAllPosts();
+  const seen = new Set<string>();
+  const featured: PostSummary[] = [];
+  for (const post of posts) {
+    if (!seen.has(post.city)) {
+      seen.add(post.city);
+      featured.push(post);
+    }
+  }
+  return featured;
+}
+
 export function getPostBySlug(slug: string): {
   frontmatter: PostFrontmatter;
   content: string;

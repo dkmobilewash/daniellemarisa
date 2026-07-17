@@ -3,6 +3,7 @@ import Link from "next/link";
 import { CTA } from "@/components/CTA";
 import { Testimonial } from "@/components/Testimonial";
 import { PressStrip } from "@/components/PressStrip";
+import { FeaturedVenues } from "@/components/FeaturedVenues";
 import { FAQAccordion, type FAQItem } from "@/components/FAQAccordion";
 import { StructuredData } from "@/components/StructuredData";
 import { localBusinessSchema, serviceSchema } from "@/lib/schema";
@@ -32,7 +33,6 @@ export type CityContent = {
     image?: { src: string; alt: string };
   }[];
   mapEmbedSrc: string;
-  venueGuideLinks: { title: string; href: string }[];
   nicheLinks: { title: string; href: string }[];
   faqs: FAQItem[];
   closingBody: string;
@@ -51,7 +51,6 @@ export function CityLandingPage({ content }: { content: CityContent }) {
     objectionBody,
     testimonials,
     mapEmbedSrc,
-    venueGuideLinks,
     nicheLinks,
     faqs,
     closingBody,
@@ -194,6 +193,8 @@ export function CityLandingPage({ content }: { content: CityContent }) {
         </div>
       </section>
 
+      <FeaturedVenues city={cityName} />
+
       <section className="mx-auto max-w-6xl px-4 py-14 sm:px-6 lg:px-8">
         <h2 className="text-center font-serif text-2xl text-ink sm:text-3xl">
           Serving {cityName} and the surrounding area
@@ -248,15 +249,12 @@ export function CityLandingPage({ content }: { content: CityContent }) {
           >
             Wedding planning FAQ →
           </Link>
-          {venueGuideLinks.map((v) => (
-            <Link
-              key={v.href}
-              href={v.href}
-              className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-accent"
-            >
-              {v.title} →
-            </Link>
-          ))}
+          <Link
+            href="/blog"
+            className="rounded-sm border border-border bg-paper p-5 text-sm font-medium text-ink hover:border-accent"
+          >
+            All venue guides →
+          </Link>
           {nicheLinks.map((n) => (
             <Link
               key={n.href}

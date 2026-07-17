@@ -102,9 +102,6 @@ export const santaFe: CityContent = {
     },
   ],
   mapEmbedSrc: "https://www.google.com/maps?q=Santa+Fe,New+Mexico&output=embed",
-  venueGuideLinks: [
-    { title: "Read our venue guides", href: "/blog" },
-  ],
   nicheLinks: [
     { title: "Destination Weddings in New Mexico", href: "/destination-wedding-planner-new-mexico" },
     { title: "Elopement Planning in New Mexico", href: "/elopement-planner-new-mexico" },

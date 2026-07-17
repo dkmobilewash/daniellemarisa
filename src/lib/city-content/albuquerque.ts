@@ -100,10 +100,6 @@ export const albuquerque: CityContent = {
   ],
   mapEmbedSrc:
     "https://www.google.com/maps?q=Albuquerque,New+Mexico&output=embed",
-  venueGuideLinks: [
-    { title: "Hotel Andaluz Venue Guide", href: "/blog/hotel-andaluz-albuquerque-wedding-venue-guide" },
-    { title: "Hyatt Regency Tamaya Venue Guide", href: "/blog/hyatt-regency-tamaya-albuquerque-wedding-venue-guide" },
-  ],
   nicheLinks: [
     { title: "Destination Weddings in New Mexico", href: "/destination-wedding-planner-new-mexico" },
     { title: "Elopement Planning in New Mexico", href: "/elopement-planner-new-mexico" },

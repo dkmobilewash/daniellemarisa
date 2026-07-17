@@ -1,15 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import { getAllPosts } from "@/lib/blog";
+import { getFeaturedPostsAcrossCities } from "@/lib/blog";
 import { CTA } from "@/components/CTA";
 
 /**
- * Staggered gallery of real venue guides — mirrors the "real weddings"
- * gallery pattern from the reference sites, using our actual venue-guide
- * content instead of a generic portfolio grid.
+ * Staggered gallery of real venue guides — one representative venue per
+ * market, mirroring the "real weddings" gallery pattern from the reference
+ * sites while using our actual venue-guide content instead of a generic
+ * portfolio grid.
  */
 export function RealWeddingsGallery() {
-  const posts = getAllPosts().slice(0, 4);
+  const posts = getFeaturedPostsAcrossCities();
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-20 sm:px-6 lg:px-8">
