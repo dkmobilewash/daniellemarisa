@@ -30,10 +30,10 @@ export const siteConfig = {
   ctaLabel: "Inquire Now",
 
   colors: {
-    ink: "#191910",
-    accent: "#6F7B4F",
-    accentDark: "#4F5837",
-    cream: "#FAF9F4",
+    ink: "#2A211A",
+    accent: "#B5502E",
+    accentDark: "#8C3B20",
+    cream: "#F6EFE4",
   },
 } as const;
 
