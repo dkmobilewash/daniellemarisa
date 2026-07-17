@@ -2,15 +2,15 @@
 @plugin "@tailwindcss/typography";
 
 :root {
-  /* Warm, high-desert neutral palette — sand/cream base, terracotta signature accent. */
-  --color-cream: #f6efe4;
-  --color-paper: #fffcf7;
-  --color-ink: #2a211a;
-  --color-ink-soft: #5c4f42;
-  --color-accent: #b5502e;
-  --color-accent-dark: #8c3b20;
-  --color-accent-light: #f2dcc9;
-  --color-border: #e6d9c6;
+  /* White / black / olive — the original brand palette. */
+  --color-cream: #faf9f4;
+  --color-paper: #ffffff;
+  --color-ink: #191910;
+  --color-ink-soft: #4a4a3f;
+  --color-accent: #6f7b4f;
+  --color-accent-dark: #4f5837;
+  --color-accent-light: #e7e9dd;
+  --color-border: #e5e3d8;
 }
 
 @theme inline {

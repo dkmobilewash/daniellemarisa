@@ -19,7 +19,7 @@ export function Footer() {
               Full-service wedding planning and day-of coordination across
               Albuquerque, Santa Fe, and Taos, New Mexico.
             </p>
-            <CTA variant="outline" className="mt-6 border-cream text-cream hover:bg-cream hover:text-ink" />
+            <CTA variant="outline-light" className="mt-6" />
           </div>
 
           <div>
