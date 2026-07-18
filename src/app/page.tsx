@@ -8,6 +8,7 @@ import { PullQuote } from "@/components/PullQuote";
 import { RealWeddingsGallery } from "@/components/RealWeddingsGallery";
 import { MediaMentions } from "@/components/MediaMentions";
 import { GoogleReviews } from "@/components/GoogleReviews";
+import { OurProcess } from "@/components/OurProcess";
 import { ContactForm } from "@/components/ContactForm";
 import { siteConfig } from "@/lib/site-config";
 
@@ -51,13 +52,13 @@ export default function HomePage() {
         </div>
       </section>
 
-      <GoogleReviews />
-
       <FilmstripGallery />
 
       <ServicesList />
 
       <FounderTeaser />
+
+      <OurProcess />
 
       <PullQuote
         quote="If I could give one piece of advice to any newly engaged couple, it's that Danielle is the most amazing gift you can give yourselves."
@@ -66,6 +67,8 @@ export default function HomePage() {
       />
 
       <RealWeddingsGallery />
+
+      <GoogleReviews />
 
       <MediaMentions />
 
