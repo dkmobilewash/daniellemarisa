@@ -384,8 +384,8 @@ export const venues: VenueContent[] = [
     city: "Santa Fe",
     tagline:
       "Recognizable by its stepped, pueblo-inspired silhouette — four ballrooms of meaningfully different scale, steps from the Plaza.",
-    heroImage: "/images/venue-inn-spa-loretto.svg",
-    heroImageAlt: "Placeholder photo of the Inn and Spa at Loretto's pueblo-style architecture — swap for real venue photography",
+    heroImage: "/images/inn-and-spa-at-loretto/inn-and-spa-at-loretto-santa-fe-wedding-planning.webp",
+    heroImageAlt: "The stepped, pueblo-inspired entrance of the Inn and Spa at Loretto in downtown Santa Fe at dusk",
     metaDescription:
       "The Inn and Spa at Loretto in Santa Fe — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
