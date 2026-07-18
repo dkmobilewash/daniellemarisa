@@ -568,8 +568,8 @@ export const venues: VenueContent[] = [
     city: "Taos",
     tagline:
       "A full-service luxury resort inside Taos town limits, built around waterfalls, aspen groves, and a dedicated Sacred Circle ceremony space.",
-    heroImage: "/images/venue-el-monte-sagrado.svg",
-    heroImageAlt: "Placeholder photo of the aspen-lined grounds at El Monte Sagrado, Taos — swap for real venue photography",
+    heroImage: "/images/el-monte-sagrado/el-monte-sagrado-taos-wedding-planning.webp",
+    heroImageAlt: "Rows of ceremony chairs set on the tree-shaded lawn at El Monte Sagrado in Taos",
     metaDescription:
       "El Monte Sagrado Living Resort & Spa in Taos — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
