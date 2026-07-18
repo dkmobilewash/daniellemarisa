@@ -478,8 +478,8 @@ export const venues: VenueContent[] = [
     city: "Taos",
     tagline:
       "A 150-year-old adobe building in Arroyo Seco, booked as a full private buyout — rustic and elegant in the same room.",
-    heroImage: "/images/venue-saltos.svg",
-    heroImageAlt: "Placeholder photo of the 150-year-old adobe building at Saltos in Arroyo Seco — swap for real venue photography",
+    heroImage: "/images/saltos/saltos-taos-private-event-planning.jpg",
+    heroImageAlt: "Guests gathered at the bar inside the rustic wood-beamed adobe interior at Saltos in Arroyo Seco",
     metaDescription:
       "Saltos in Arroyo Seco, near Taos — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
