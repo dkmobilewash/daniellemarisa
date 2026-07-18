@@ -429,8 +429,8 @@ export const venues: VenueContent[] = [
     city: "Santa Fe",
     tagline:
       "A dedicated event space from the team behind Coyote Café and Santacafe — restaurant-forward, with a balcony overlooking downtown Santa Fe.",
-    heroImage: "/images/venue-sunset-terrace.svg",
-    heroImageAlt: "Placeholder photo of The Sunset Terrace balcony overlooking downtown Santa Fe — swap for real venue photography",
+    heroImage: "/images/sunset-terrace/the-sunset-terrace-event-reception-planning.jpg",
+    heroImageAlt: "A reception table set for dinner on The Sunset Terrace balcony overlooking downtown Santa Fe rooftops at sunset",
     metaDescription:
       "The Sunset Terrace in downtown Santa Fe — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
