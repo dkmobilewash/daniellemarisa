@@ -103,8 +103,8 @@ export const venues: VenueContent[] = [
     city: "Albuquerque",
     tagline:
       "A National Historic Register inn on a working organic lavender farm in the North Valley — capped at 60 guests for a genuinely intimate day.",
-    heroImage: "/images/venue-los-poblanos.svg",
-    heroImageAlt: "Placeholder photo of Los Poblanos Historic Inn's lavender fields — swap for real venue photography",
+    heroImage: "/images/los-poblanos/los-poblanos-wedding-planning.jpg",
+    heroImageAlt: "Wedding reception under the lit covered portal at Los Poblanos Historic Inn in Los Ranchos, New Mexico",
     metaDescription:
       "Los Poblanos Historic Inn & Organic Farm in Los Ranchos — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
