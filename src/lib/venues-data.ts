@@ -523,8 +523,8 @@ export const venues: VenueContent[] = [
     city: "Taos",
     tagline:
       "A riverfront ranch home in Valdez, featured in Vogue — one of northern New Mexico's most sought-after private elopement settings.",
-    heroImage: "/images/venue-many-feathers-ranch.svg",
-    heroImageAlt: "Placeholder photo of the riverfront grounds at Many Feathers Ranch near Taos — swap for real venue photography",
+    heroImage: "/images/many-feathers-ranch/many-feathers-ranch-taos-wedding-planning.jpg",
+    heroImageAlt: "Outdoor wedding ceremony under willow trees with mountain views at Many Feathers Ranch near Taos",
     metaDescription:
       "Many Feathers Ranch in Valdez, near Taos — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
