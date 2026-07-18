@@ -292,8 +292,8 @@ export const venues: VenueContent[] = [
     city: "Santa Fe",
     tagline:
       "The most historically significant wedding venue in Santa Fe — an inn on this exact corner of the Plaza since the city's earliest days.",
-    heroImage: "/images/venue-la-fonda.svg",
-    heroImageAlt: "Placeholder photo of a hand-painted ballroom at La Fonda on the Plaza — swap for real venue photography",
+    heroImage: "/images/real-wedding-ambiance/Annette&MaxWedding2023-139.jpg",
+    heroImageAlt: "Wedding recessional in front of the Cathedral Basilica of St. Francis, steps from La Fonda on the Plaza in downtown Santa Fe",
     metaDescription:
       "La Fonda on the Plaza in Santa Fe — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
