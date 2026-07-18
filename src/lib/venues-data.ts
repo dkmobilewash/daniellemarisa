@@ -614,8 +614,8 @@ export const venues: VenueContent[] = [
     city: "Taos",
     tagline:
       "Perched atop Outlaw Hill at 7,200 feet — arguably the single best view in Taos, with a history running back to Billy the Kid.",
-    heroImage: "/images/venue-the-stakeout.svg",
-    heroImageAlt: "Placeholder photo of The Stakeout's outdoor deck atop Outlaw Hill, Taos — swap for real venue photography",
+    heroImage: "/images/the-stakeout/the-stakeout-taos-wedding-and-event-planning.webp",
+    heroImageAlt: "Guests gathered on The Stakeout's adobe deck atop Outlaw Hill overlooking the Taos desert mesa and mountains",
     metaDescription:
       "The Stakeout in Ranchos de Taos — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
