@@ -338,8 +338,8 @@ export const venues: VenueContent[] = [
     city: "Santa Fe",
     tagline:
       "A true luxury-resort wedding weekend in the foothills a few minutes north of downtown Santa Fe.",
-    heroImage: "/images/venue-bishops-lodge.svg",
-    heroImageAlt: "Placeholder photo of the Bishop's Lodge foothills wedding grounds — swap for real venue photography",
+    heroImage: "/images/bishops-lodge/bishops-lodge-santa-fe-wedding-planner.jpg",
+    heroImageAlt: "Outdoor wedding ceremony at the historic chapel lawn at Bishop's Lodge, Auberge Resorts Collection, with mountain views and a horse-drawn carriage",
     metaDescription:
       "Bishop's Lodge in Santa Fe — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
