@@ -197,8 +197,8 @@ export const venues: VenueContent[] = [
     city: "Albuquerque",
     tagline:
       "A country-club setting at the base of the Sandia Mountains that scales from a 20-guest elopement to a 500-guest reception.",
-    heroImage: "/images/venue-sandia-golf-club.svg",
-    heroImageAlt: "Placeholder photo of the Event Center at Sandia Golf Club with Sandia Mountain views — swap for real venue photography",
+    heroImage: "/images/sandia-golf-club/sandia-golf-club-wedding-planning.webp",
+    heroImageAlt: "Outdoor wedding ceremony setup at The Event Center at Sandia Golf Club with the Sandia Mountains in the background",
     metaDescription:
       "The Event Center at Sandia Golf Club in Albuquerque — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
