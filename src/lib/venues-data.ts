@@ -150,8 +150,8 @@ export const venues: VenueContent[] = [
     city: "Albuquerque",
     tagline:
       "The largest full-service wedding venue in the metro, built at the edge of Old Town with hand-stamped tin chandeliers and 10 event spaces.",
-    heroImage: "/images/venue-hotel-albuquerque.svg",
-    heroImageAlt: "Placeholder photo of the Alvarado Ballroom at Hotel Albuquerque at Old Town — swap for real venue photography",
+    heroImage: "/images/hotel-albuquerque-old-town/hotel-albuquerque-wedding-planner.jpg",
+    heroImageAlt: "Aerial view of an outdoor wedding reception set up on the courtyard lawn at Hotel Albuquerque at Old Town",
     metaDescription:
       "Hotel Albuquerque at Old Town — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
