@@ -245,8 +245,8 @@ export const venues: VenueContent[] = [
     city: "Santa Fe",
     tagline:
       "A working contemporary and Western art gallery with a sculpture garden — for couples who want their wedding to feel like an art opening.",
-    heroImage: "/images/venue-gerald-peters-gallery.svg",
-    heroImageAlt: "Placeholder photo of the Gerald Peters Gallery sculpture garden — swap for real venue photography",
+    heroImage: "/images/gerald-peters-gallery/gerald-peters-gallery-wedding-santa-fe.jpg",
+    heroImageAlt: "The adobe courtyard and sculpture garden lawn at Gerald Peters Gallery in Santa Fe",
     metaDescription:
       "Gerald Peters Gallery in Santa Fe — capacity, logistics, the experience, and what to know before you book your wedding here.",
     quickFacts: [
