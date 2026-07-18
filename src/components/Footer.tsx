@@ -55,6 +55,16 @@ export function Footer() {
                 <Link href="/faq" className="text-cream/80 hover:text-cream">FAQ</Link>
               </li>
               <li>
+                <Link href="/full-service-wedding-planning" className="text-cream/80 hover:text-cream">
+                  Full-Service Planning
+                </Link>
+              </li>
+              <li>
+                <Link href="/wedding-day-coordination" className="text-cream/80 hover:text-cream">
+                  Day-of Coordination
+                </Link>
+              </li>
+              <li>
                 <Link href="/destination-wedding-planner-new-mexico" className="text-cream/80 hover:text-cream">
                   Destination Weddings
                 </Link>

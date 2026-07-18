@@ -23,6 +23,13 @@ export function localBusinessSchema() {
       "@type": "City",
       name: a,
     })),
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "5.0",
+      reviewCount: "14",
+      bestRating: "5",
+      worstRating: "1",
+    },
     sameAs: [
       siteConfig.social.instagram,
       siteConfig.social.facebook,

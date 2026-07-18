@@ -7,6 +7,8 @@ import { FounderTeaser } from "@/components/FounderTeaser";
 import { PullQuote } from "@/components/PullQuote";
 import { RealWeddingsGallery } from "@/components/RealWeddingsGallery";
 import { MediaMentions } from "@/components/MediaMentions";
+import { GoogleReviews } from "@/components/GoogleReviews";
+import { ContactForm } from "@/components/ContactForm";
 import { siteConfig } from "@/lib/site-config";
 
 export const metadata: Metadata = {
@@ -49,6 +51,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      <GoogleReviews />
+
       <FilmstripGallery />
 
       <ServicesList />
@@ -65,16 +69,22 @@ export default function HomePage() {
 
       <MediaMentions />
 
-      <section className="mx-auto max-w-3xl px-4 py-20 text-center sm:px-6 lg:px-8">
-        <h2 className="font-serif text-3xl text-ink sm:text-4xl">
-          Ready to start planning?
-        </h2>
-        <p className="mt-4 text-lg text-ink-soft">
-          Tell us your date and venue and we&apos;ll follow up within one
-          business day.
-        </p>
-        <div className="mt-8">
-          <CTA size="lg" />
+      <section className="mx-auto max-w-xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="text-center">
+          <h2 className="font-serif text-3xl text-ink sm:text-4xl">
+            Ready to start planning?
+          </h2>
+          <p className="mt-4 text-lg text-ink-soft">
+            Tell us your date and venue and we&apos;ll follow up within one
+            business day — or call{" "}
+            <a href={siteConfig.phoneHref} className="text-accent-dark underline underline-offset-4">
+              {siteConfig.phone}
+            </a>
+            .
+          </p>
+        </div>
+        <div className="mt-10">
+          <ContactForm />
         </div>
       </section>
     </>

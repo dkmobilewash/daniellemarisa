@@ -6,6 +6,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { CTA } from "@/components/CTA";
 import { cities } from "@/lib/cities";
+import { siteConfig } from "@/lib/site-config";
 
 const navLinks = [
   ...cities.map((c) => ({ href: c.path, label: c.name })),
@@ -49,6 +50,18 @@ export function Header() {
               </Link>
             );
           })}
+          <a
+            href={siteConfig.phoneHref}
+            className="flex items-center gap-1.5 text-xs font-medium uppercase tracking-[0.15em] text-ink hover:text-accent-dark"
+          >
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path
+                d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.3 21 3 13.7 3 4.8c0-.6.4-1 1-1h3.3c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1L6.6 10.8z"
+                fill="currentColor"
+              />
+            </svg>
+            {siteConfig.phone}
+          </a>
           <CTA size="md" />
         </nav>
 
@@ -99,7 +112,13 @@ export function Header() {
               </li>
             ))}
           </ul>
-          <CTA size="lg" className="mt-4 w-full" />
+          <a
+            href={siteConfig.phoneHref}
+            className="mt-4 block px-2 text-sm font-medium text-ink hover:text-accent-dark"
+          >
+            Call {siteConfig.phone}
+          </a>
+          <CTA size="lg" className="mt-3 w-full" />
         </nav>
       )}
     </header>
