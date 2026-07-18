@@ -9,6 +9,7 @@ import { RealWeddingsGallery } from "@/components/RealWeddingsGallery";
 import { MediaMentions } from "@/components/MediaMentions";
 import { GoogleReviews } from "@/components/GoogleReviews";
 import { OurProcess } from "@/components/OurProcess";
+import { MarketsOverview } from "@/components/MarketsOverview";
 import { ContactForm } from "@/components/ContactForm";
 import { siteConfig } from "@/lib/site-config";
 
@@ -53,6 +54,8 @@ export default function HomePage() {
       </section>
 
       <FilmstripGallery />
+
+      <MarketsOverview />
 
       <ServicesList />
 
