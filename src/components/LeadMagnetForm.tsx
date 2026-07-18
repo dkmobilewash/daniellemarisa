@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export function LeadMagnetForm({
   title = "Free Wedding Planning Timeline Checklist",
@@ -34,9 +35,9 @@ export function LeadMagnetForm({
         <h2 className="font-serif text-xl text-ink">You&apos;re in!</h2>
         <p className="mt-2 text-sm text-ink-soft">
           Check your inbox for the checklist — and{" "}
-          <a href="/wedding-planning-checklist/thank-you" className="text-accent-dark underline underline-offset-4">
+          <Link href="/wedding-planning-checklist/thank-you" className="text-accent-dark underline underline-offset-4">
             grab your download here
-          </a>{" "}
+          </Link>{" "}
           in the meantime.
         </p>
       </div>

@@ -21,7 +21,7 @@ export async function generateMetadata({
   return {
     title: `${shortName} | Danielle Marisa`,
     description: venue.metaDescription,
-    alternates: { canonical: `/venues/${slug}` },
+    alternates: { canonical: `/${slug}` },
     openGraph: {
       type: "website",
       images: [{ url: venue.heroImage }],

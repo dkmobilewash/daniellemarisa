@@ -47,7 +47,7 @@ export function VenueGrid({ venues }: { venues: VenueContent[] }) {
         {filtered.map((venue) => (
           <Link
             key={venue.slug}
-            href={`/venues/${venue.slug}`}
+            href={`/${venue.slug}`}
             className="group flex flex-col overflow-hidden rounded-sm border border-border bg-paper"
           >
             <div className="relative aspect-[3/2] w-full">

@@ -22,8 +22,8 @@ const atAGlance = [
 ];
 
 const venuesWeKnow = [
-  { name: "Hotel Andaluz", href: "/venues/hotel-andaluz" },
-  { name: "Hyatt Regency Tamaya Resort & Spa", href: "/venues/hyatt-regency-tamaya" },
+  { name: "Hotel Andaluz", href: "/hotel-andaluz" },
+  { name: "Hyatt Regency Tamaya Resort & Spa", href: "/hyatt-regency-tamaya" },
 ];
 
 export default function AboutPage() {

@@ -27,7 +27,7 @@ export function FeaturedVenues({ city }: { city: string }) {
           {venues.map((venue) => (
             <Link
               key={venue.slug}
-              href={`/venues/${venue.slug}`}
+              href={`/${venue.slug}`}
               className="group flex flex-col overflow-hidden rounded-sm border border-border bg-paper hover:border-accent"
             >
               <div className="relative aspect-[4/3] w-full">

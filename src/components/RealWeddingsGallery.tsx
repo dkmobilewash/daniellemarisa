@@ -27,7 +27,7 @@ export function RealWeddingsGallery() {
         {venues.map((venue, i) => (
           <Link
             key={venue.slug}
-            href={`/venues/${venue.slug}`}
+            href={`/${venue.slug}`}
             className={`group mb-6 block break-inside-avoid ${i % 3 === 1 ? "sm:mt-12" : ""}`}
           >
             <div className="relative aspect-[4/5] w-full overflow-hidden">
