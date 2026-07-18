@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
@@ -21,15 +22,15 @@ export function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-border bg-cream/95 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
-        <Link
-          href="/"
-          className="font-serif text-lg font-semibold tracking-wide text-ink"
-          onClick={() => setOpen(false)}
-        >
-          Danielle Marisa
-          <span className="block text-[0.65rem] font-sans font-normal uppercase tracking-[0.2em] text-accent-dark">
-            Weddings &amp; Events
-          </span>
+        <Link href="/" onClick={() => setOpen(false)} aria-label="Danielle Marisa Weddings &amp; Events">
+          <Image
+            src="/images/daniellemarisa-wedings-and-events-albuquerque.png"
+            alt="Danielle Marisa Weddings &amp; Events"
+            width={462}
+            height={160}
+            priority
+            className="h-12 w-auto"
+          />
         </Link>
 
         <nav aria-label="Primary" className="hidden items-center gap-7 lg:flex">
