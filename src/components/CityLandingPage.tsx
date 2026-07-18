@@ -11,6 +11,8 @@ import { siteConfig } from "@/lib/site-config";
 
 export type CityPackage = {
   name: string;
+  /** Optional link to the dedicated service page this package corresponds to. */
+  href?: string;
   price: string;
   description: string;
   features: string[];
@@ -141,7 +143,15 @@ export function CityLandingPage({ content }: { content: CityContent }) {
                 key={pkg.name}
                 className="flex flex-col rounded-sm border border-border bg-paper p-6"
               >
-                <h3 className="font-serif text-xl text-ink">{pkg.name}</h3>
+                <h3 className="font-serif text-xl text-ink">
+                  {pkg.href ? (
+                    <Link href={pkg.href} className="underline decoration-transparent hover:decoration-accent-dark hover:text-accent-dark">
+                      {pkg.name}
+                    </Link>
+                  ) : (
+                    pkg.name
+                  )}
+                </h3>
                 <p className="mt-1 text-sm font-semibold text-accent-dark">
                   Starting at {pkg.price}
                 </p>
@@ -176,6 +186,14 @@ export function CityLandingPage({ content }: { content: CityContent }) {
             </p>
           ))}
         </div>
+        <p className="mt-2">
+          <Link
+            href="/wedding-day-coordination"
+            className="text-sm font-medium text-accent-dark underline underline-offset-4"
+          >
+            See exactly what our day-of coordination includes &rarr;
+          </Link>
+        </p>
       </section>
 
       <section className="border-y border-border bg-paper">

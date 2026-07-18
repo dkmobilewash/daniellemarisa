@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { CTA } from "@/components/CTA";
 import { Testimonial } from "@/components/Testimonial";
+import { RelatedServices } from "@/components/RelatedServices";
 import { StructuredData } from "@/components/StructuredData";
 import { localBusinessSchema, serviceSchema } from "@/lib/schema";
 
@@ -112,6 +113,8 @@ export default function DestinationWeddingPlannerPage() {
           <CTA size="lg" />
         </div>
       </div>
+
+      <RelatedServices current="destination-wedding-planner-new-mexico" />
     </div>
   );
 }

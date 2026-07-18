@@ -26,6 +26,7 @@ export const taos: CityContent = {
   packages: [
     {
       name: "Elopement & Micro Wedding",
+      href: "/elopement-planner-new-mexico",
       price: "$1,500",
       description:
         "For ceremonies of 30 guests or fewer at a mountain overlook, gorge rim site, or historic Taos property, permits and all.",
@@ -38,6 +39,7 @@ export const taos: CityContent = {
     },
     {
       name: "Wedding Weekend Planning",
+      href: "/full-service-wedding-planning",
       price: "$5,000",
       description:
         "Full planning for a multi-day Taos wedding weekend, including welcome dinner, ceremony, reception, and next-day gathering.",
@@ -50,6 +52,7 @@ export const taos: CityContent = {
     },
     {
       name: "Month-of Coordination",
+      href: "/wedding-day-coordination",
       price: "$2,000",
       description:
         "You've booked your Taos venue — we step in to confirm every vendor, build the timeline, and run the day itself.",

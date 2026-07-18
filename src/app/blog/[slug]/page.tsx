@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { MDXRemote } from "next-mdx-remote/rsc";
-import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { StructuredData } from "@/components/StructuredData";
 import { blogPostingSchema } from "@/lib/schema";
 import { CTA } from "@/components/CTA";
@@ -58,6 +58,7 @@ export default async function BlogPostPage({
   if (!post) notFound();
 
   const { frontmatter, content } = post;
+  const relatedPosts = getRelatedPosts(slug);
 
   return (
     <article className="mx-auto max-w-3xl px-4 py-14 sm:px-6 lg:px-8">
@@ -102,6 +103,26 @@ export default async function BlogPostPage({
       <div className="mt-12 rounded-sm border border-border bg-accent-light/40 p-6">
         <LeadMagnetForm />
       </div>
+
+      {relatedPosts.length > 0 && (
+        <div className="mt-12 border-t border-border pt-10">
+          <h2 className="font-serif text-2xl text-ink">
+            More {frontmatter.city} Venue Guides
+          </h2>
+          <ul className="mt-4 space-y-3">
+            {relatedPosts.map((p) => (
+              <li key={p.slug}>
+                <Link
+                  href={`/blog/${p.slug}`}
+                  className="font-medium text-accent-dark underline underline-offset-4"
+                >
+                  {p.title}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-border pt-8">
         <Link href="/blog" className="text-sm font-medium text-accent-dark underline underline-offset-4">

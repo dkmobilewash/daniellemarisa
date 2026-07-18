@@ -33,6 +33,7 @@ export const albuquerque: CityContent = {
   packages: [
     {
       name: "Full-Service Planning",
+      href: "/full-service-wedding-planning",
       price: "$4,500",
       description:
         "For couples who want a true partner from engagement to exit song — venue sourcing, vendor booking, design, budget management, and full day-of execution.",
@@ -46,6 +47,7 @@ export const albuquerque: CityContent = {
     },
     {
       name: "Month-of Coordination",
+      href: "/wedding-day-coordination",
       price: "$1,800",
       description:
         "You've booked your venue and vendors — we step in 4-6 weeks out to build the timeline, confirm every detail, and run the day.",
@@ -59,6 +61,7 @@ export const albuquerque: CityContent = {
     },
     {
       name: "Elopement & Micro Wedding",
+      href: "/elopement-planner-new-mexico",
       price: "$1,200",
       description:
         "For intimate ceremonies of 30 guests or fewer — Sandia Peak overlooks, Old Town gardens, or a backyard that just needs a plan.",

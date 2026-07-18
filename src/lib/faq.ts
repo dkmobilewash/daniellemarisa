@@ -13,6 +13,10 @@ export const siteFaqs = [
     question: "What's the difference between full planning and day-of coordination?",
     answer:
       "Full-service planning means we're involved from the very beginning — venue selection, vendor booking, design, and budget management — through the wedding day itself. Day-of (technically 'month-of') coordination means you've already booked your venue and vendors, and we step in about a month out to build the timeline, confirm every detail, and run the day so you don't have to.",
+    links: [
+      { text: "Full-service planning details", href: "/full-service-wedding-planning" },
+      { text: "Day-of coordination details", href: "/wedding-day-coordination" },
+    ],
   },
   {
     question: "Doesn't my venue already include a coordinator?",
@@ -23,6 +27,11 @@ export const siteFaqs = [
     question: "What areas do you serve?",
     answer:
       "We're based in New Mexico and plan weddings throughout Albuquerque, Santa Fe, Taos, Rio Rancho, Corrales, and Placitas, as well as destination weddings and elopements at scenic sites across the state.",
+    links: [
+      { text: "Albuquerque wedding planner", href: "/albuquerque-wedding-planner" },
+      { text: "Santa Fe wedding planner", href: "/santa-fe-wedding-planner" },
+      { text: "Taos wedding planner", href: "/taos-wedding-planner" },
+    ],
   },
   {
     question: "How does the process start?",
@@ -33,6 +42,10 @@ export const siteFaqs = [
     question: "Can you help with a destination wedding or elopement?",
     answer:
       "Yes — destination weddings and elopements across New Mexico are a core part of what we do, including permit logistics for scenic outdoor sites, guest travel coordination, and multi-day wedding weekends for out-of-town couples.",
+    links: [
+      { text: "Destination wedding planning", href: "/destination-wedding-planner-new-mexico" },
+      { text: "Elopement planning", href: "/elopement-planner-new-mexico" },
+    ],
   },
   {
     question: "Do you plan events other than weddings?",

@@ -40,9 +40,22 @@ export default function ChecklistLandingPage() {
           </li>
         </ul>
         <p className="mt-6 text-sm text-ink-soft">
-          Want a full plan built specifically for your wedding? See our{" "}
+          Want a full plan built specifically for your wedding? See what&apos;s
+          included in{" "}
+          <Link href="/full-service-wedding-planning" className="text-accent-dark underline underline-offset-4">
+            full-service planning
+          </Link>
+          , or find your city —{" "}
           <Link href="/albuquerque-wedding-planner" className="text-accent-dark underline underline-offset-4">
-            planning packages
+            Albuquerque
+          </Link>
+          ,{" "}
+          <Link href="/santa-fe-wedding-planner" className="text-accent-dark underline underline-offset-4">
+            Santa Fe
+          </Link>
+          ,{" "}
+          <Link href="/taos-wedding-planner" className="text-accent-dark underline underline-offset-4">
+            Taos
           </Link>
           .
         </p>

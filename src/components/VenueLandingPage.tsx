@@ -4,6 +4,7 @@ import { CTA } from "@/components/CTA";
 import { StructuredData } from "@/components/StructuredData";
 import { localBusinessSchema } from "@/lib/schema";
 import { cities } from "@/lib/cities";
+import { getRelatedVenues } from "@/lib/venues";
 import type { VenueContent } from "@/lib/venues";
 
 function cityPathFor(city: string): string {
@@ -12,6 +13,7 @@ function cityPathFor(city: string): string {
 
 export function VenueLandingPage({ venue }: { venue: VenueContent }) {
   const {
+    slug,
     name,
     city,
     tagline,
@@ -27,6 +29,7 @@ export function VenueLandingPage({ venue }: { venue: VenueContent }) {
   } = venue;
 
   const cityPath = cityPathFor(city);
+  const relatedVenues = getRelatedVenues(slug);
 
   return (
     <>
@@ -140,6 +143,43 @@ export function VenueLandingPage({ venue }: { venue: VenueContent }) {
           </div>
         </div>
       </section>
+
+      {relatedVenues.length > 0 && (
+        <section className="border-t border-border bg-accent-light/40">
+          <div className="mx-auto max-w-5xl px-4 py-14 sm:px-6 lg:px-8">
+            <h2 className="text-center font-serif text-2xl text-ink sm:text-3xl">
+              Comparing {city} Venues?
+            </h2>
+            <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-ink-soft">
+              Other {city} venues we&apos;ve planned at or know well.
+            </p>
+            <div className="mt-10 grid gap-6 sm:grid-cols-3">
+              {relatedVenues.map((v) => (
+                <Link
+                  key={v.slug}
+                  href={`/${v.slug}`}
+                  className="group flex flex-col overflow-hidden rounded-sm border border-border bg-paper hover:border-accent"
+                >
+                  <div className="relative aspect-[4/3] w-full">
+                    <Image
+                      src={v.heroImage}
+                      alt={v.heroImageAlt}
+                      fill
+                      className="object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                  </div>
+                  <div className="p-4">
+                    <p className="font-serif text-lg text-ink">{v.name}</p>
+                    <span className="text-xs font-medium uppercase tracking-[0.15em] text-accent-dark">
+                      View Venue
+                    </span>
+                  </div>
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       <section className="mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 lg:px-8">
         <h2 className="font-serif text-3xl text-ink">

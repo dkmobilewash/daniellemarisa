@@ -26,6 +26,7 @@ export const santaFe: CityContent = {
   packages: [
     {
       name: "Destination Full Planning",
+      href: "/destination-wedding-planner-new-mexico",
       price: "$6,000",
       description:
         "End-to-end planning for couples marrying in Santa Fe from out of town, including welcome events, guest logistics, and full day-of execution.",
@@ -39,6 +40,7 @@ export const santaFe: CityContent = {
     },
     {
       name: "Month-of Coordination",
+      href: "/wedding-day-coordination",
       price: "$2,000",
       description:
         "For couples who've booked their Santa Fe venue and vendors and need an experienced local team to run the final stretch and the day itself.",
@@ -52,6 +54,7 @@ export const santaFe: CityContent = {
     },
     {
       name: "Elopement & Micro Wedding",
+      href: "/elopement-planner-new-mexico",
       price: "$1,400",
       description:
         "Intimate ceremonies in the high desert, a historic courtyard, or the foothills, with the permits and logistics handled for you.",

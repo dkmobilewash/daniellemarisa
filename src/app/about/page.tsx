@@ -24,6 +24,8 @@ const atAGlance = [
 const venuesWeKnow = [
   { name: "Hotel Andaluz", href: "/hotel-andaluz" },
   { name: "Hyatt Regency Tamaya Resort & Spa", href: "/hyatt-regency-tamaya" },
+  { name: "La Fonda on the Plaza", href: "/la-fonda" },
+  { name: "The Stakeout", href: "/the-stakeout" },
 ];
 
 export default function AboutPage() {
@@ -104,10 +106,11 @@ export default function AboutPage() {
           Venues we know well
         </h2>
         <p className="mt-3 text-ink-soft">
-          Beyond Albuquerque, Danielle regularly plans at historic adobe
-          properties around Santa Fe and mountain-view sites above Taos.
-          A few Albuquerque venues she&apos;s worked at closely enough to
-          write the guide on:
+          Danielle has planned or coordinated across all three markets — Old
+          Town courtyards and resort ballrooms in Albuquerque, historic
+          adobe hotels in Santa Fe, and mountain-view sites above Taos. A
+          few venues she&apos;s worked at closely enough to write the guide
+          on:
         </p>
         <div className="mt-6 flex flex-wrap justify-center gap-3">
           {venuesWeKnow.map((v) => (
@@ -120,6 +123,11 @@ export default function AboutPage() {
             </Link>
           ))}
         </div>
+        <p className="mt-4">
+          <Link href="/venues" className="text-sm font-medium text-accent-dark underline underline-offset-4">
+            See all featured venues &rarr;
+          </Link>
+        </p>
       </div>
       </div>
 

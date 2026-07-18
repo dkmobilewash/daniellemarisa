@@ -48,3 +48,12 @@ export function getPostBySlug(slug: string): {
   const { data, content } = matter(raw);
   return { frontmatter: data as PostFrontmatter, content };
 }
+
+/** Other venue guides in the same city, for "more venue guides" cross-links. */
+export function getRelatedPosts(slug: string, limit = 3): PostSummary[] {
+  const current = getAllPosts().find((p) => p.slug === slug);
+  if (!current) return [];
+  return getAllPosts()
+    .filter((p) => p.city === current.city && p.slug !== slug)
+    .slice(0, limit);
+}

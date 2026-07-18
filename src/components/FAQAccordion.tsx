@@ -1,4 +1,11 @@
-export type FAQItem = { question: string; answer: string };
+import Link from "next/link";
+
+export type FAQItem = {
+  question: string;
+  answer: string;
+  /** Optional links to more in-depth pages directly relevant to this answer. */
+  links?: { text: string; href: string }[];
+};
 
 export function FAQAccordion({ items }: { items: FAQItem[] }) {
   return (
@@ -15,6 +22,19 @@ export function FAQAccordion({ items }: { items: FAQItem[] }) {
             </span>
           </summary>
           <p className="mt-3 text-sm leading-relaxed text-ink-soft">{item.answer}</p>
+          {item.links && item.links.length > 0 && (
+            <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+              {item.links.map((l) => (
+                <Link
+                  key={l.href}
+                  href={l.href}
+                  className="font-medium text-accent-dark underline underline-offset-4"
+                >
+                  {l.text} &rarr;
+                </Link>
+              ))}
+            </p>
+          )}
         </details>
       ))}
     </div>
