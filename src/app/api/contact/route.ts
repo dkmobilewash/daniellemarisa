@@ -50,7 +50,7 @@ export async function POST(request: Request) {
 
   try {
     await resend.emails.send({
-      from: `${siteConfig.businessName} <hello@${new URL(siteConfig.domain).hostname}>`,
+      from: `${siteConfig.businessName} <${siteConfig.email}>`,
       to: siteConfig.email,
       replyTo: email,
       subject: `New inquiry from ${name}`,

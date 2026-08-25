@@ -29,7 +29,7 @@ export async function POST(request: Request) {
 
   try {
     await resend.emails.send({
-      from: `${siteConfig.businessName} <hello@${new URL(siteConfig.domain).hostname}>`,
+      from: `${siteConfig.businessName} <${siteConfig.email}>`,
       to: siteConfig.email,
       replyTo: email,
       subject: "New wedding planning checklist request",
@@ -37,7 +37,7 @@ export async function POST(request: Request) {
     });
 
     await resend.emails.send({
-      from: `${siteConfig.businessName} <hello@${new URL(siteConfig.domain).hostname}>`,
+      from: `${siteConfig.businessName} <${siteConfig.email}>`,
       to: email,
       subject: "Your Wedding Planning Timeline Checklist",
       html: `
