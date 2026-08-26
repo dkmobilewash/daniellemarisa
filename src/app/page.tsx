@@ -75,13 +75,13 @@ export default function HomePage() {
 
       <MediaMentions />
 
-      <section className="mx-auto max-w-xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-2xl px-4 py-20 sm:px-6 lg:px-8">
         <div className="text-center">
           <h2 className="font-serif text-3xl text-ink sm:text-4xl">
             Ready to start planning?
           </h2>
           <p className="mt-4 text-lg text-ink-soft">
-            Tell us your date and venue and we&apos;ll follow up within one
+            Tell us about your event and we&apos;ll follow up within one
             business day — or call{" "}
             <a href={siteConfig.phoneHref} className="text-accent-dark underline underline-offset-4">
               {siteConfig.phone}

@@ -17,7 +17,7 @@ export default function ContactPage() {
       </p>
       <h1 className="mt-3 font-serif text-4xl text-ink">Inquire</h1>
       <p className="mt-4 text-lg leading-relaxed text-ink-soft">
-        Tell us about your wedding and we&apos;ll follow up within one
+        Tell us about your event and we&apos;ll follow up within one
         business day. Prefer to talk it through first? Call or text{" "}
         <a href={siteConfig.phoneHref} className="text-accent-dark underline underline-offset-4">
           {siteConfig.phone}
