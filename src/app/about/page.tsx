@@ -75,14 +75,15 @@ export default function AboutPage() {
             </p>
             <p>
               What sets her approach apart isn&apos;t a signature aesthetic
-              — it&apos;s the depth of local knowledge that only comes from
-              actually working the room, season after season, at the
-              venues, with the vendors, and in the neighborhoods that make
-              up New Mexico&apos;s wedding landscape. She knows which
-              historic properties have hard curfews, which caterers can
-              execute a full reception in a small mountain town, and which
-              backup plan actually works when a summer monsoon rolls in an
-              hour before your ceremony.
+              — it&apos;s the kind of local expertise that can only come
+              from producing exceptional events season after season;
+              working alongside the venues, trusted vendors, and
+              communities that define New Mexico&apos;s wedding landscape.
+              She knows which properties create an unforgettable guest
+              experience, which caterers can execute an elevated reception
+              in any setting, and how to seamlessly navigate the details,
+              logistics, and unexpected moments that come with bringing a
+              truly exceptional celebration to life.
             </p>
             <p>
               Outside of work, Danielle is a dedicated mother and

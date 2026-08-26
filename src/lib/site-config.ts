@@ -19,7 +19,7 @@ export const siteConfig = {
 
   social: {
     instagram: "https://instagram.com/daniellemarisaevents",
-    facebook: "https://www.facebook.com/daniellemarisaevents",
+    facebook: "https://www.facebook.com/share/1JpZz9aSnX/?mibextid=wwXIfr",
     pinterest: "https://www.pinterest.com/daniellemarisaevents",
   },
 
