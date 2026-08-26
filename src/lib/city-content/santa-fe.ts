@@ -5,22 +5,22 @@ export const santaFe: CityContent = {
   heroImage: "/images/real-wedding-ambiance/Annette&MaxWedding2023-3391.jpg",
   heroAlt: "Real wedding party portrait in front of the Cathedral Basilica of St. Francis of Assisi, Santa Fe",
   intro:
-    "Danielle Marisa Weddings and Events plans full-service and destination weddings for couples marrying in Santa Fe — from historic adobe hotels near the Plaza to luxury resorts in the foothills. Many of our Santa Fe couples live out of state; we act as your local, on-the-ground team so distance never becomes a planning problem.",
+    "Danielle Marisa Weddings and Events designs elevated destination weddings in Santa Fe — the Southwest's most storied luxury market, where centuries of adobe architecture meet a world-class art scene and a level of bespoke hospitality few American cities can match. Many of our Santa Fe couples live out of state; we act as your local, on-the-ground team so distance never becomes a planning problem.",
   localKnowledge: [
     {
-      heading: "Planning a Santa Fe wedding from near or far",
+      heading: "An elevated, art-forward wedding destination",
       paragraphs: [
-        "Santa Fe draws couples for the same reasons it draws everyone else: Territorial and Pueblo Revival architecture, a legendary art and food scene, and light that photographers talk about for years afterward. It's also one of New Mexico's most in-demand wedding markets, which means the best historic properties and boutique resorts book out 12+ months ahead, especially for the September–October and April–May shoulder seasons when the weather is mild and the aspens or the high-desert wildflowers are at their best.",
-        "Because so many Santa Fe weddings are destination weddings — for the couple, for half the guest list, or both — a huge part of our job is translating a wish list into a workable weekend: welcome events, rehearsal dinners, next-day brunches, shuttle logistics between hotels and the venue, and altitude and sun advice for guests flying in from sea level. We coordinate room blocks, local transportation, and vendor logistics so your out-of-town guests experience Santa Fe the way you fell in love with it.",
-        "We also know the practical side of Santa Fe venues: which historic properties have strict noise ordinances and hard end times downtown, which have covered portales for a monsoon backup plan, and which require additional permits for open flame, drone photography, or amplified sound near the Plaza.",
+        "Santa Fe isn't just a wedding backdrop — it's the third-largest art market in the United States, home to more than 250 galleries along Canyon Road and around the Plaza, the Georgia O'Keeffe Museum, and a chef-driven culinary scene with a genuine international reputation. Couples marrying here are choosing a sophisticated destination, and the wedding should feel like it belongs to that world: bespoke design, considered details, and production values that match the city's own. It's also one of New Mexico's most in-demand luxury wedding markets, and the best historic properties and boutique resorts book out 12+ months ahead, especially for the September–October and April–May shoulder seasons.",
+        "Because so many Santa Fe weddings are destination weddings — for the couple, for half the guest list, or both — a huge part of our job is building a fully bespoke wedding weekend, not a single event: a curated welcome dinner in a gallery courtyard or private adobe estate, a rehearsal dinner drawing on the city's chef-driven food scene, shuttle logistics between luxury hotels and the venue, and altitude and sun guidance for guests flying in from sea level. Every detail is designed to feel considered, not generic — in a city this design-conscious, generic is the one thing a wedding can't afford to be.",
+        "We also know the practical side of Santa Fe's most exclusive venues: which historic properties have strict noise ordinances and hard end times downtown, which have covered portales for a monsoon backup plan, and which require additional permits for open flame, drone photography, or amplified sound near the Plaza — the kind of detail that separates a seamless luxury weekend from one that merely looks the part.",
       ],
     },
   ],
   painPoints: [
     "We live out of state and I'm terrified of planning a wedding in a city we can't just drive to on a random Tuesday.",
     "Everyone keeps telling us Santa Fe books up a year in advance and I don't know if that's true or a sales tactic.",
-    "I want the adobe-and-turquoise-sky wedding, but I also want our guests fed well and comfortable, not just photographed well.",
-    "I need someone who can manage a whole wedding weekend, not just one ceremony and reception.",
+    "I don't want a generic 'boho desert' Pinterest wedding — I want something that actually feels as considered and elevated as this city is.",
+    "I need someone who can manage a whole bespoke wedding weekend, not just one ceremony and reception.",
     "I don't want to find out three weeks before the wedding that our venue has a hard 10pm cutoff.",
   ],
   packages: [
@@ -29,7 +29,7 @@ export const santaFe: CityContent = {
       href: "/destination-wedding-planner-new-mexico",
       price: "$6,000",
       description:
-        "End-to-end planning for couples marrying in Santa Fe from out of town, including welcome events, guest logistics, and full day-of execution.",
+        "End-to-end, bespoke planning for couples marrying in Santa Fe from out of town — built around the city's luxury venues and art-world sensibility, welcome events, guest logistics, and full day-of execution.",
       features: [
         "Venue and vendor sourcing across Santa Fe",
         "Guest travel & room block coordination",
@@ -57,7 +57,7 @@ export const santaFe: CityContent = {
       href: "/elopement-planner-new-mexico",
       price: "$1,400",
       description:
-        "Intimate ceremonies in the high desert, a historic courtyard, or the foothills, with the permits and logistics handled for you.",
+        "Intimate, elevated ceremonies in the high desert, a historic courtyard, or the foothills — permits and logistics handled, design still considered down to the last detail.",
       features: [
         "Location scouting and permit logistics",
         "Officiant and vendor referrals",
@@ -68,7 +68,7 @@ export const santaFe: CityContent = {
   ],
   objectionHeading: "“Our venue has an in-house coordinator — do we still need you?”",
   objectionBody: [
-    "Almost every well-known Santa Fe property offers some version of an in-house coordinator, and it's easy to assume that covers everything. In practice, their role is to manage the venue itself — the room flip, the building's rules, the in-house catering team if there is one. It is not their job to manage your florist's load-in, coordinate a welcome dinner across town, track down a delayed groomsman, or handle the wedding weekend as a whole.",
+    "Almost every well-known Santa Fe luxury property offers some version of an in-house coordinator, and it's easy to assume that covers everything. In practice, their role is to manage the venue itself — the room flip, the building's rules, the in-house catering team if there is one. It is not their job to manage your florist's load-in, coordinate a welcome dinner across town, track down a delayed groomsman, or handle the wedding weekend as a whole.",
     "For destination weddings especially, this gap gets bigger, not smaller. An in-house coordinator has never met your photographer, doesn't know your guest list is flying in from four time zones, and isn't fielding the 9pm text about tomorrow's brunch reservation. That's the work a planner does, and it's the work that actually determines whether your wedding weekend feels effortless or chaotic.",
     "We work with Santa Fe's venue teams as partners, not competitors — coordinating around their process so the property's staff and your outside vendors are moving in the same direction all weekend.",
   ],
@@ -97,7 +97,7 @@ export const santaFe: CityContent = {
       quote:
         "She knew exactly which spots in town would work for our welcome party without us having to research a single thing.",
       name: "Naomi & Chris",
-      detail: "Santa Fe, foothills resort wedding",
+      detail: "Santa Fe, luxury foothills resort wedding",
       image: {
         src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-465.jpg",
         alt: "Real wedding reception at a Santa Fe foothills resort",
@@ -113,7 +113,7 @@ export const santaFe: CityContent = {
     {
       question: "How much does a Santa Fe wedding planner cost?",
       answer:
-        "Destination full planning for Santa Fe typically starts around $6,000, month-of coordination starts around $2,000, and elopement support starts around $1,400. Because so many Santa Fe weddings involve multi-day logistics, your quote depends heavily on how many events we're coordinating across the weekend.",
+        "Destination full planning for Santa Fe typically starts around $6,000, month-of coordination starts around $2,000, and elopement support starts around $1,400. Because Santa Fe weddings are typically bespoke, multi-day, and staged at some of the state's most exclusive venues, your exact quote depends heavily on how many events we're coordinating across the weekend.",
     },
     {
       question: "We don't live in New Mexico — can you still help us?",

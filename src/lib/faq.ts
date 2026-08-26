@@ -51,5 +51,9 @@ export const siteFaqs = [
     question: "Do you plan events other than weddings?",
     answer:
       "Danielle has coordinated corporate events, community events, and VIP parties for 10+ years alongside weddings. Weddings are our primary focus, but reach out if you're planning another type of event and we'll let you know if it's a fit.",
+    links: [
+      { text: "Private event planning", href: "/private-event-planner-new-mexico" },
+      { text: "Corporate event planning", href: "/corporate-event-planner-new-mexico" },
+    ],
   },
 ];

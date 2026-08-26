@@ -32,16 +32,16 @@ export default function HomePage() {
           className="object-cover"
         />
         <div className="absolute inset-0 bg-ink/50" />
-        <div className="relative z-10 mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
-          <h1 className="font-serif text-4xl uppercase leading-tight tracking-wide text-cream sm:text-5xl md:text-6xl">
-            {siteConfig.businessName}
-            <span className="mt-2 block">
-              — <em className="italic text-cream/90">{siteConfig.primaryCity}</em> Wedding Planner
-            </span>
+        <div className="relative z-10 mx-auto max-w-6xl px-4 text-center sm:px-6 lg:px-8">
+          <h1 className="font-serif text-3xl uppercase leading-tight tracking-wide text-cream sm:text-4xl lg:whitespace-nowrap lg:text-4xl xl:text-5xl">
+            Danielle Marisa Weddings &amp; Events
           </h1>
+          <p className="mt-3 text-sm uppercase tracking-[0.25em] text-cream/90 sm:text-base">
+            Albuquerque, Santa Fe &amp; Taos Wedding Planner
+          </p>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-cream/90">
             Stress-free, expertly designed, and genuinely memorable weddings
-            across Albuquerque, Santa Fe, and Taos — planned by someone
+            across Albuquerque, Santa Fe, and Taos — planned by an expert
             who&apos;s done it for 10+ years.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
@@ -66,7 +66,7 @@ export default function HomePage() {
       <PullQuote
         quote="If I could give one piece of advice to any newly engaged couple, it's that Danielle is the most amazing gift you can give yourselves."
         name="Maya & Jordan"
-        detail="Married at Hotel Andaluz, Albuquerque"
+        detail="Married at Los Poblanos, Albuquerque"
       />
 
       <RealWeddingsGallery />

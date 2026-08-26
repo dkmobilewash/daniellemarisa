@@ -3,54 +3,6 @@ import type { VenueContent } from "./venues";
 export const venues: VenueContent[] = [
   // ---------------------------------------------------------------- Albuquerque
   {
-    slug: "hotel-andaluz",
-    name: "Hotel Andaluz",
-    city: "Albuquerque",
-    tagline:
-      "Downtown Albuquerque's landmark Spanish Revival hotel — wisteria-draped courtyards, hand-forged ironwork, and a rooftop view of the Sandias.",
-    heroImage: "/images/hotel-andalez/ALP-220.jpg",
-    heroImageAlt: "Real wedding ceremony aisle under the wisteria-covered pergola at Hotel Andaluz, Albuquerque",
-    metaDescription:
-      "Hotel Andaluz in Downtown Albuquerque — capacity, logistics, the experience, and what to know before you book your wedding here.",
-    quickFacts: [
-      { label: "Capacity", value: "Up to 500" },
-      { label: "Setting", value: "Historic Hotel" },
-      { label: "Built", value: "1939" },
-      { label: "Ideal For", value: "City weddings" },
-    ],
-    whatMakesItSpecial: [
-      "Originally opened in 1939 as one of Conrad Hilton's earliest hotels, Hotel Andaluz was restored in 2004 into a Spanish Revival showpiece — one of the first historic hotels in the world to earn LEED Gold certification. Horseshoe arches, hand-painted tile, dark wood balconies, and a rooftop lounge with sweeping Sandia Mountain views give the property real architectural weight.",
-      "Because it's a full-service hotel in the middle of Downtown Albuquerque, it solves two problems at once — a genuinely beautiful backdrop, and built-in lodging for out-of-town guests who can walk from the elevator straight into your reception.",
-    ],
-    theExperience: {
-      heading: "A Downtown Wedding, Reimagined",
-      paragraphs: [
-        "Most Hotel Andaluz weddings move through the property's five distinct event spaces across the evening: a ceremony in the Barcelona Ballroom or on its private terrace, cocktail hour in the fountain-anchored Lobby, and a reception that can flex from an intimate 40-guest gathering up to a full 500-guest celebration using multiple rooms at once.",
-        "The rooftop lounge, Ibiza, is where most couples end the night — Sandia Mountain and skyline views at sunset, then city lights after dark. Because the hotel's guest rooms sit just an elevator ride away, the transition from reception to after-party (or simply to bed) is as easy as it gets for a downtown venue.",
-      ],
-    },
-    theArea: {
-      heading: "Steps From Old Town and Downtown Albuquerque",
-      paragraphs: [
-        "Hotel Andaluz sits on 2nd Street NW in the heart of Downtown Albuquerque, a few minutes' walk or rideshare from Old Town's plaza, museums, and restaurants — an easy add-on for a rehearsal dinner or a next-day brunch. Downtown's growing restaurant and bar scene also gives out-of-town guests plenty to do the night before and after the wedding.",
-      ],
-    },
-    capacityLogistics: [
-      "Barcelona Ballroom holds up to 200 guests with a private terrace and gold chiavari chairs included",
-      "Casablanca Room seats up to 70, ideal for a rehearsal dinner",
-      "The Lobby, anchored by a Spanish fountain, holds up to 150 for cocktail hour or reception",
-      "Across all spaces, the hotel flexes from an elopement of two up to 500 guests",
-      "Valet and self parking available; downtown street parking is not a reliable backup on a Saturday night",
-    ],
-    photoSpots: [
-      "The rooftop lounge (Ibiza), with Sandia Mountain and skyline views",
-      "The lobby staircase and mezzanine under the stained-glass skylight",
-      "The Barcelona Ballroom's private terrace",
-      "The Spanish Revival facade on 2nd Street NW",
-    ],
-    blogSlug: "hotel-andaluz-albuquerque-wedding-venue-guide",
-  },
-  {
     slug: "hyatt-regency-tamaya",
     name: "Hyatt Regency Tamaya Resort & Spa",
     city: "Albuquerque",

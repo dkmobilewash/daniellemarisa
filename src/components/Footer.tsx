@@ -75,6 +75,21 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/concierge-services" className="text-cream/80 hover:text-cream">
+                  Concierge Services
+                </Link>
+              </li>
+              <li>
+                <Link href="/private-event-planner-new-mexico" className="text-cream/80 hover:text-cream">
+                  Private Events
+                </Link>
+              </li>
+              <li>
+                <Link href="/corporate-event-planner-new-mexico" className="text-cream/80 hover:text-cream">
+                  Corporate Events
+                </Link>
+              </li>
+              <li>
                 <Link href="/wedding-planning-checklist" className="text-cream/80 hover:text-cream">
                   Free Planning Checklist
                 </Link>

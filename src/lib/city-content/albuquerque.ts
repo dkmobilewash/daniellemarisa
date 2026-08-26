@@ -18,7 +18,7 @@ export const albuquerque: CityContent = {
     {
       heading: "When to book your Albuquerque wedding planner",
       paragraphs: [
-        "Most of our full-service couples reach out 9 to 14 months before their wedding date, which is also when Albuquerque's most in-demand venues — think Hotel Andaluz and Hyatt Regency Tamaya — start filling their prime spring and fall Saturdays. If you already have a venue booked and just need someone to manage the last stretch, month-of coordination clients typically bring us in 3 to 4 months out.",
+        "Most of our full-service couples reach out 9 to 14 months before their wedding date, which is also when Albuquerque's most in-demand venues — think Los Poblanos and Hyatt Regency Tamaya — start filling their prime spring and fall Saturdays. If you already have a venue booked and just need someone to manage the last stretch, month-of coordination clients typically bring us in 3 to 4 months out.",
         "If you're reading this closer to your date than either of those windows, don't count yourself out. We regularly take on couples with 60 days or less who need someone to take over an overwhelming vendor list, and we'll always give you an honest answer about what's realistically possible in the time left.",
       ],
     },
@@ -84,10 +84,10 @@ export const albuquerque: CityContent = {
       quote:
         "We asked our venue this exact question before we hired Danielle, and in hindsight the answer was obvious: their coordinator had never met our florist and didn't know our ceremony started 20 minutes early for sunset. Danielle did.",
       name: "Maya & Jordan",
-      detail: "Married at Hotel Andaluz, Downtown Albuquerque",
+      detail: "Married at Los Poblanos, Los Ranchos",
       image: {
-        src: "/images/hotel-andalez/ALP-220.jpg",
-        alt: "Real wedding ceremony aisle at Hotel Andaluz, Albuquerque",
+        src: "/images/los-poblanos/los-poblanos-wedding-planning.jpg",
+        alt: "Real wedding reception under the lit covered portal at Los Poblanos Historic Inn",
       },
     },
     {
@@ -121,7 +121,7 @@ export const albuquerque: CityContent = {
     {
       question: "Do you only work at certain Albuquerque venues?",
       answer:
-        "No. While we've coordinated weddings at popular spots like Hotel Andaluz and Hyatt Regency Tamaya, we plan weddings at any venue in the Albuquerque metro, including private homes, ranches, and event spaces you've already found on your own.",
+        "No. While we've coordinated weddings at popular spots like Los Poblanos and Hyatt Regency Tamaya, we plan weddings at any venue in the Albuquerque metro, including private homes, ranches, and event spaces you've already found on your own.",
     },
   ],
   closingBody:

@@ -22,7 +22,7 @@ const atAGlance = [
 ];
 
 const venuesWeKnow = [
-  { name: "Hotel Andaluz", href: "/hotel-andaluz" },
+  { name: "Los Poblanos", href: "/los-poblanos" },
   { name: "Hyatt Regency Tamaya Resort & Spa", href: "/hyatt-regency-tamaya" },
   { name: "La Fonda on the Plaza", href: "/la-fonda" },
   { name: "The Stakeout", href: "/the-stakeout" },
@@ -59,12 +59,19 @@ export default function AboutPage() {
           <div className="mt-6 space-y-4 text-lg leading-relaxed text-ink-soft">
             <p>
               Danielle is an event planner and coordinator rooted in New
-              Mexico. For more than a decade, she has coordinated weddings,
-              corporate events, community events, and VIP parties across
-              Albuquerque, Santa Fe, and Taos — but her focus has always
-              stayed on full-service weddings and events, handling every
-              logistic required to make the day stress-free, expertly
-              designed, and genuinely memorable for the people living it.
+              Mexico. For more than a decade, she has coordinated weddings,{" "}
+              <Link href="/corporate-event-planner-new-mexico" className="text-accent-dark underline underline-offset-4">
+                corporate events
+              </Link>
+              , community events, and{" "}
+              <Link href="/private-event-planner-new-mexico" className="text-accent-dark underline underline-offset-4">
+                VIP parties
+              </Link>{" "}
+              across Albuquerque, Santa Fe, and Taos — but her focus has
+              always stayed on full-service weddings and events, handling
+              every logistic required to make the day stress-free,
+              expertly designed, and genuinely memorable for the people
+              living it.
             </p>
             <p>
               What sets her approach apart isn&apos;t a signature aesthetic
