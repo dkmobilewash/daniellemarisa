@@ -28,7 +28,7 @@ export function GoogleReviews() {
             ))}
           </div>
           <p className="text-sm font-medium text-ink">
-            5.0 out of 5 &mdash; 14 Google reviews
+            5.0 out of 5 &mdash; 16 Google reviews
           </p>
           <a
             href={searchHref}

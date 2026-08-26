@@ -90,14 +90,14 @@ export default function DestinationWeddingPlannerPage() {
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
         <Testimonial
-          quote="We planned our wedding from Chicago and never once felt like we were flying blind."
-          name="Priya & Sam"
-          detail="Destination wedding, Santa Fe"
+          quote="I worked with Danielle and her team for my July destination wedding in Santa Fe and they were an absolute dream to work with!"
+          name="AL"
+          detail="Google review — destination wedding, Santa Fe"
         />
         <Testimonial
-          quote="Danielle scouted three venues for us over video call before we ever booked a flight to New Mexico."
-          name="Renee & Marcus"
-          detail="Destination wedding, Albuquerque"
+          quote="I was blown away with Danielle's professionalism and her commitment to make my wedding day vision come to life! For any bride considering New Mexico for a destination wedding — look no further."
+          name="Michaela Alexander"
+          detail="Google review — destination wedding"
         />
       </div>
 

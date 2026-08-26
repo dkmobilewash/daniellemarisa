@@ -73,33 +73,21 @@ export const taos: CityContent = {
   testimonials: [
     {
       quote:
-        "We eloped at sunrise above the gorge and it was the most unrushed, present morning of our lives — because Danielle had handled every permit and contingency in advance.",
-      name: "Grace & Elena",
-      detail: "Elopement, Rio Grande Gorge overlook",
-      image: {
-        src: "/images/real-wedding-ambiance/ALP-421.jpg",
-        alt: "Real intimate wedding first-dance moment under string lights",
-      },
+        "Danielle Marisa is one of the best event coordinators in New Mexico, hands down. She has the most creative eye and pays close attention to the smallest of details.",
+      name: "Lavel Nordin",
+      detail: "Google review",
     },
     {
       quote:
-        "Taos doesn't have endless vendor options, and Danielle knew exactly who to call for a town this size.",
-      name: "Wyatt & Noah",
-      detail: "Micro wedding, historic Taos inn",
-      image: {
-        src: "/images/real-wedding-ambiance/ALP-330.jpg",
-        alt: "Real micro wedding celebration",
-      },
+        "Danielle of Danielle Marisa Events was the perfect planner fit for me as a person, a bride and for the wedding I envisioned! She has a wealth of knowledge about weddings and every single little detail that goes into them.",
+      name: "Cody & Mara Muchow",
+      detail: "Google review",
     },
     {
       quote:
-        "We turned it into a full weekend with family and Danielle planned every piece of it, not just the ceremony.",
-      name: "Camille & Andre",
-      detail: "Wedding weekend, Taos casita property",
-      image: {
-        src: "/images/real-wedding-ambiance/ALP-402.jpg",
-        alt: "Real wedding weekend celebration",
-      },
+        "Our wedding would have never been the same without Danielle!! She is the absolute best and has the most hardworking team!",
+      name: "Jennifer Inman",
+      detail: "Google review",
     },
   ],
   mapEmbedSrc: "https://www.google.com/maps?q=Taos,New+Mexico&output=embed",

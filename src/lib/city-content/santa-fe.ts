@@ -75,33 +75,21 @@ export const santaFe: CityContent = {
   testimonials: [
     {
       quote:
-        "We planned our wedding from Chicago and never once felt like we were flying blind. Danielle handled everything on the ground, down to the shuttle schedule for our guests.",
-      name: "Priya & Sam",
-      detail: "Destination wedding, Santa Fe",
-      image: {
-        src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-2525.jpg",
-        alt: "Real destination wedding celebration in Santa Fe",
-      },
+        "I worked with Danielle and her team for my July destination wedding in Santa Fe and they were an absolute dream to work with!",
+      name: "AL",
+      detail: "Google review — destination wedding, Santa Fe",
     },
     {
       quote:
-        "The venue's coordinator was wonderful for the building itself, but Danielle ran our entire weekend — rehearsal dinner, brunch, and the wedding day.",
-      name: "Isabel & Tom",
-      detail: "Santa Fe wedding weekend, historic downtown venue",
-      image: {
-        src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-3052.jpg",
-        alt: "Real wedding weekend celebration in downtown Santa Fe",
-      },
+        "When a massive thunder storm knocked out all of the power in downtown Santa Fe including at our venue, she remained extremely calm and effective in her execution of the day. She truly went above and beyond.",
+      name: "Holly",
+      detail: "Google review — Santa Fe wedding",
     },
     {
       quote:
-        "She knew exactly which spots in town would work for our welcome party without us having to research a single thing.",
-      name: "Naomi & Chris",
-      detail: "Santa Fe, luxury foothills resort wedding",
-      image: {
-        src: "/images/real-wedding-ambiance/Annette&MaxWedding2023-465.jpg",
-        alt: "Real wedding reception at a Santa Fe foothills resort",
-      },
+        "I was blown away with Danielle's professionalism and her commitment to make my wedding day vision come to life! For any bride considering New Mexico for a destination wedding — look no further.",
+      name: "Michaela Alexander",
+      detail: "Google review — destination wedding",
     },
   ],
   mapEmbedSrc: "https://www.google.com/maps?q=Santa+Fe,New+Mexico&output=embed",

@@ -82,23 +82,15 @@ export const albuquerque: CityContent = {
   testimonials: [
     {
       quote:
-        "We asked our venue this exact question before we hired Danielle, and in hindsight the answer was obvious: their coordinator had never met our florist and didn't know our ceremony started 20 minutes early for sunset. Danielle did.",
-      name: "Maya & Jordan",
-      detail: "Married at Los Poblanos, Los Ranchos",
-      image: {
-        src: "/images/los-poblanos/los-poblanos-wedding-planning.jpg",
-        alt: "Real wedding reception under the lit covered portal at Los Poblanos Historic Inn",
-      },
+        "We had an amazing experience working with Danielle Marisa Weddings & Events! Her knowledge of the Albuquerque wedding industry and relationships with local vendors made the entire planning process so much less stressful.",
+      name: "Diego Carrillo",
+      detail: "Google review — Albuquerque",
     },
     {
       quote:
-        "Our reception spanned two spaces at Tamaya and I genuinely don't know how we would have moved 140 guests between them without her.",
-      name: "Renee & Marcus",
-      detail: "Married at Hyatt Regency Tamaya, Santa Ana Pueblo",
-      image: {
-        src: "/images/hyatt-tamaya/hyatt-tamaya-wedding-planner.jpg",
-        alt: "Real sunset wedding ceremony setup at Hyatt Regency Tamaya with the Sandia Mountains in the background",
-      },
+        "If I could give Danielle and her team 100 stars, I would! Hiring Danielle was hands down one of the best decisions we made for our wedding.",
+      name: "Crystal Nunez",
+      detail: "Google review",
     },
   ],
   mapEmbedSrc:

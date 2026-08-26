@@ -84,14 +84,14 @@ export default function ElopementPlannerPage() {
 
       <div className="mt-10 grid gap-6 sm:grid-cols-2">
         <Testimonial
-          quote="We eloped at sunrise above the gorge and it was the most unrushed, present morning of our lives."
-          name="Grace & Elena"
-          detail="Elopement, Rio Grande Gorge overlook"
+          quote="Danielle has been our event planner for all our events. I will not use or recommend anyone else."
+          name="Elisharose Trujillo"
+          detail="Google review"
         />
         <Testimonial
-          quote="Our elopement in Taos felt intimate and completely unrushed, and it still ran like clockwork."
-          name="Wyatt & Noah"
-          detail="Micro wedding, Taos"
+          quote="What a wonderful wedding. Beautiful flow and a wonderful overall party."
+          name="Jason Kroese"
+          detail="Google review"
         />
       </div>
 

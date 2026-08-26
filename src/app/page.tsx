@@ -64,9 +64,9 @@ export default function HomePage() {
       <OurProcess />
 
       <PullQuote
-        quote="If I could give one piece of advice to any newly engaged couple, it's that Danielle is the most amazing gift you can give yourselves."
-        name="Maya & Jordan"
-        detail="Married at Los Poblanos, Albuquerque"
+        quote="Danielle is the best hands down. She's amazing at what she does and puts so much love into every event."
+        name="Josiah Lira"
+        detail="Google review"
       />
 
       <RealWeddingsGallery />

@@ -1,4 +1,4 @@
-// Real excerpts from the business's Google Business Profile (5.0 stars, 14 reviews).
+// Real excerpts from the business's Google Business Profile (5.0 stars, 16 reviews).
 // Keep quotes verbatim (trimmed for length) and attribute using the name Google displays.
 
 export type Review = {
