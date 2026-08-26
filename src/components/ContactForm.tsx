@@ -187,7 +187,7 @@ export function ContactForm() {
           id="budget"
           name="budget"
           type="text"
-          placeholder="e.g. $5,000–$10,000, or 'not sure yet'"
+          placeholder="e.g. a rough range, or 'not sure yet'"
           className={inputClass}
         />
       </div>

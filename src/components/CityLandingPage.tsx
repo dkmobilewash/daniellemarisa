@@ -134,8 +134,8 @@ export function CityLandingPage({ content }: { content: CityContent }) {
             Planning packages
           </h2>
           <p className="mx-auto mt-3 max-w-2xl text-center text-sm text-ink-soft">
-            Placeholder starting-at pricing — every package is customized to
-            your guest count, venue, and timeline during a free consultation.
+            Every package is tailored to your guest count, venue, and
+            timeline during a free consultation.
           </p>
           <div className="mt-10 grid gap-6 md:grid-cols-3">
             {packages.map((pkg) => (
@@ -153,7 +153,7 @@ export function CityLandingPage({ content }: { content: CityContent }) {
                   )}
                 </h3>
                 <p className="mt-1 text-sm font-semibold text-accent-dark">
-                  Starting at {pkg.price}
+                  {pkg.price}
                 </p>
                 <p className="mt-3 text-sm text-ink-soft">{pkg.description}</p>
                 <ul className="mt-4 space-y-2 text-sm text-ink-soft">

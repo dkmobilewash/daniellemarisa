@@ -34,7 +34,7 @@ export const albuquerque: CityContent = {
     {
       name: "Full-Service Planning",
       href: "/full-service-wedding-planning",
-      price: "$4,500",
+      price: "Custom Quote",
       description:
         "For couples who want a true partner from engagement to exit song — venue sourcing, vendor booking, design, budget management, and full day-of execution.",
       features: [
@@ -48,7 +48,7 @@ export const albuquerque: CityContent = {
     {
       name: "Month-of Coordination",
       href: "/wedding-day-coordination",
-      price: "$1,800",
+      price: "Custom Quote",
       description:
         "You've booked your venue and vendors — we step in 4-6 weeks out to build the timeline, confirm every detail, and run the day.",
       features: [
@@ -62,7 +62,7 @@ export const albuquerque: CityContent = {
     {
       name: "Elopement & Micro Wedding",
       href: "/elopement-planner-new-mexico",
-      price: "$1,200",
+      price: "Custom Quote",
       description:
         "For intimate ceremonies of 30 guests or fewer — Sandia Peak overlooks, Old Town gardens, or a backyard that just needs a plan.",
       features: [
@@ -111,7 +111,7 @@ export const albuquerque: CityContent = {
     {
       question: "How much does a wedding planner cost in Albuquerque?",
       answer:
-        "Full-service planning in the Albuquerque area typically starts around $4,500, month-of coordination starts around $1,800, and elopement support starts around $1,200. Your exact quote depends on guest count, venue, and how much planning is already done — every couple gets a custom proposal after a free consultation.",
+        "Every package — full-service planning, month-of coordination, and elopement support — is quoted individually based on guest count, venue, and how much planning is already done. Every couple gets a custom proposal after a free consultation.",
     },
     {
       question: "How far in advance should we book a wedding planner?",

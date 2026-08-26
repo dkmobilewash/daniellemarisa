@@ -2,7 +2,7 @@ export const siteFaqs = [
   {
     question: "How much does a wedding planner cost in New Mexico?",
     answer:
-      "It depends on the level of service and your city. As a starting point: month-of coordination typically starts around $1,800–$2,000, full-service planning starts around $4,500–$6,000, and elopement support starts around $1,200–$1,500. Every quote is customized after a free consultation based on guest count, venue, and how much planning is already done.",
+      "It depends on the level of service and your city — month-of coordination, full-service planning, and elopement support are each priced differently. Every quote is customized after a free consultation based on guest count, venue, and how much planning is already done.",
   },
   {
     question: "How far in advance should we book a wedding planner?",

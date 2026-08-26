@@ -72,11 +72,11 @@ export default function FullServiceWeddingPlanningPage() {
 
         <h2>What&apos;s included</h2>
         <p>
-          Full-service planning typically starts around $4,500–$6,000,
-          depending on guest count, venue, and how many events are part of
-          your wedding weekend. Every quote is customized after a free
-          consultation — there&apos;s no generic package price until we
-          understand what your day actually needs.
+          Full-service planning is priced individually, depending on guest
+          count, venue, and how many events are part of your wedding
+          weekend. Every quote is customized after a free consultation —
+          there&apos;s no generic package price until we understand what
+          your day actually needs.
         </p>
       </div>
 

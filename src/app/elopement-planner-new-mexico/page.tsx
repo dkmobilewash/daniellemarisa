@@ -76,9 +76,9 @@ export default function ElopementPlannerPage() {
           scouting and permit logistics, officiant and vendor referrals,
           weather contingency planning, and day-of coordination so someone
           other than you is checking the forecast and confirming vendor
-          arrivals. Packages start around $1,200–$1,500 depending on
-          location and guest count, with full pricing confirmed after a
-          free consultation.
+          arrivals. Packages are priced individually depending on location
+          and guest count, with full pricing confirmed after a free
+          consultation.
         </p>
       </div>
 

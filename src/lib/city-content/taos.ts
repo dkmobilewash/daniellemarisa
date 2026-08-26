@@ -27,7 +27,7 @@ export const taos: CityContent = {
     {
       name: "Elopement & Micro Wedding",
       href: "/elopement-planner-new-mexico",
-      price: "$1,500",
+      price: "Custom Quote",
       description:
         "For ceremonies of 30 guests or fewer at a mountain overlook, gorge rim site, or historic Taos property, permits and all.",
       features: [
@@ -40,7 +40,7 @@ export const taos: CityContent = {
     {
       name: "Wedding Weekend Planning",
       href: "/full-service-wedding-planning",
-      price: "$5,000",
+      price: "Custom Quote",
       description:
         "Full planning for a multi-day Taos wedding weekend, including welcome dinner, ceremony, reception, and next-day gathering.",
       features: [
@@ -53,7 +53,7 @@ export const taos: CityContent = {
     {
       name: "Month-of Coordination",
       href: "/wedding-day-coordination",
-      price: "$2,000",
+      price: "Custom Quote",
       description:
         "You've booked your Taos venue — we step in to confirm every vendor, build the timeline, and run the day itself.",
       features: [
@@ -111,7 +111,7 @@ export const taos: CityContent = {
     {
       question: "How much does a Taos elopement planner cost?",
       answer:
-        "Elopement and micro wedding support in Taos typically starts around $1,500, full wedding weekend planning starts around $5,000, and month-of coordination starts around $2,000. Remote or public land sites can add permit and logistics costs, which we'll walk you through up front.",
+        "Every package — elopement and micro wedding support, full wedding weekend planning, and month-of coordination — is quoted individually. Remote or public land sites can add permit and logistics considerations, which we'll walk you through up front.",
     },
     {
       question: "Can you help us get permits for a scenic outdoor site?",

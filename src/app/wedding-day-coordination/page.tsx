@@ -70,10 +70,10 @@ export default function WeddingDayCoordinationPage() {
 
         <h2>What&apos;s included</h2>
         <p>
-          Month-of coordination typically starts around $1,800–$2,000,
-          depending on guest count and the number of vendors involved. Every
-          quote is confirmed after a free consultation once we know your
-          venue, vendor list, and timeline.
+          Month-of coordination is priced individually, depending on guest
+          count and the number of vendors involved. Every quote is
+          confirmed after a free consultation once we know your venue,
+          vendor list, and timeline.
         </p>
       </div>
 

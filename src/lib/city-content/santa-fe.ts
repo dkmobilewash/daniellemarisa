@@ -27,7 +27,7 @@ export const santaFe: CityContent = {
     {
       name: "Destination Full Planning",
       href: "/destination-wedding-planner-new-mexico",
-      price: "$6,000",
+      price: "Custom Quote",
       description:
         "End-to-end, bespoke planning for couples marrying in Santa Fe from out of town — built around the city's luxury venues and art-world sensibility, welcome events, guest logistics, and full day-of execution.",
       features: [
@@ -41,7 +41,7 @@ export const santaFe: CityContent = {
     {
       name: "Month-of Coordination",
       href: "/wedding-day-coordination",
-      price: "$2,000",
+      price: "Custom Quote",
       description:
         "For couples who've booked their Santa Fe venue and vendors and need an experienced local team to run the final stretch and the day itself.",
       features: [
@@ -55,7 +55,7 @@ export const santaFe: CityContent = {
     {
       name: "Elopement & Micro Wedding",
       href: "/elopement-planner-new-mexico",
-      price: "$1,400",
+      price: "Custom Quote",
       description:
         "Intimate, elevated ceremonies in the high desert, a historic courtyard, or the foothills — permits and logistics handled, design still considered down to the last detail.",
       features: [
@@ -113,7 +113,7 @@ export const santaFe: CityContent = {
     {
       question: "How much does a Santa Fe wedding planner cost?",
       answer:
-        "Destination full planning for Santa Fe typically starts around $6,000, month-of coordination starts around $2,000, and elopement support starts around $1,400. Because Santa Fe weddings are typically bespoke, multi-day, and staged at some of the state's most exclusive venues, your exact quote depends heavily on how many events we're coordinating across the weekend.",
+        "Because Santa Fe weddings are typically bespoke, multi-day, and staged at some of the state's most exclusive venues, every proposal — destination full planning, month-of coordination, or elopement support — is priced individually around how many events we're coordinating across the weekend.",
     },
     {
       question: "We don't live in New Mexico — can you still help us?",
